@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <!-- Required meta tags -->
@@ -13,7 +12,11 @@
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="{{asset('css/common/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/common/bootstrap.css')}}">
+        <!-- Themify Icons -->
+        <link rel="stylesheet" href="{{asset('css/front/themify-icons.css')}}">
+        <!-- Owl carousel -->
+        <link rel="stylesheet" href="{{asset('css/front/owl.carousel.min.css')}}">
         <!-- Main css -->
         <link href="{{asset('css/front/style.css')}}" rel="stylesheet">
     </head>
@@ -22,6 +25,7 @@
         <main role="main" class="container">
         @yield('content')
         @include('layouts.front_layout.footer')
+        </main>
          <!-- jQuery and Bootstrap -->
          <script src="{{asset('js/front/jquery-3.2.1.min.js')}}"></script>
          <script src="{{asset('js/common/bootstrap.bundle.js')}}"></script>

@@ -1,24 +1,18 @@
 <!-- Nav Menu -->
-
-<div id="custom-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-      <div class="navbar-header"><a class="navbar-brand" href="#">Brand</a>
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-          </button>
-      </div>
-      <div class="collapse navbar-collapse navbar-menubuilder">
-          <ul class="nav navbar-nav navbar-right">
-              <li><a href="/">Home</a>
-              </li>
-              <li><a href="/products">Products</a>
-              </li>
-              <li><a href="/about-us">About Us</a>
-              </li>
-              <li><a href="#">Ministries</a>
-              </li>
-              <li><a href="/contact">Contact Us</a>
-              </li>
-          </ul>
-      </div>
-  </div>
-</div>
+<header>
+  <nav class="site-header fixed-top py-1">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="#">
+        <img src="{{ asset('images/icons/logo.png') }}" width="50" height="50" />
+      </a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Home</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">About</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+    </div>
+  </nav>
+</header>
+  

@@ -33,44 +33,28 @@ Copyright © All rights Reserved
 
 body {
     font-family: 'Rubik', sans-serif;
+    position: relative;
 }
-/*NAVBAR*/
-#custom-menu.navbar-default .navbar-brand {
-  color: rgba(195, 33, 72, 1);
+.container {
+  max-width: 960px;
 }
-#custom-menu.navbar-default {
-  font-size: 14px;
-  background-color: rgba(128, 0, 0, 1);
-  border-bottom-width: 1px;
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(128, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
 }
-#custom-menu.navbar-default .navbar-nav>li>a {
-  color: rgba(195, 33, 72, 1);
-  background-color: rgba(248, 248, 248, 0);
+.site-header a {
+  color: #f2ba49;
+  transition: ease-in-out color .15s;
 }
-#custom-menu.navbar-default .navbar-nav>li>a:hover,
-#custom-menu.navbar-default .navbar-nav>li>a:focus {
-  color: rgba(255, 255, 159, 1);
-  background-color: rgba(195, 33, 72, 1);
-}
-#custom-menu.navbar-default .navbar-nav>.active>a,
-#custom-menu.navbar-default .navbar-nav>.active>a:hover,
-#custom-menu.navbar-default .navbar-nav>.active>a:focus {
-  color: rgba(128, 0, 0, 1);
-  background-color: rgba(242, 186, 73, 1);
-}
-#custom-menu.navbar-default .navbar-toggle {
-  border-color: #f2ba49;
-}
-#custom-menu.navbar-default .navbar-toggle:hover,
-#custom-menu.navbar-default .navbar-toggle:focus {
-  background-color: #f2ba49;
-}
-#custom-menu.navbar-default .navbar-toggle .icon-bar {
-  background-color: #f2ba49;
-}
-#custom-menu.navbar-default .navbar-toggle:hover .icon-bar,
-#custom-menu.navbar-default .navbar-toggle:focus .icon-bar {
-  background-color: #800000;
+.site-header a:hover {
+  color: #c32148;
+  text-decoration: none;
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
