@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/*
+
+Style   : MobApp CSS
+Version : 1.0
+Author  : Surjith S M
+URI     : https://surjithctly.in/
+
+Copyright © All rights Reserved 
+
+*/
+
+
+/*------------------------
+[TABLE OF CONTENTS]
+    
+1. GLOBAL STYLES
+2. NAVBAR
+3. HERO
+4. TABS
+5. TESTIMONIALS
+6. IMAGE GALLERY
+7. PRICING
+8. CALL TO ACTION
+9. FOOTER
+
+------------------------*/
+
+
+/* GLOBAL
+----------------------*/
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+/*NAVBAR*/
+#custom-menu.navbar-default .navbar-brand {
+  color: rgba(195, 33, 72, 1);
+}
+#custom-menu.navbar-default {
+  font-size: 14px;
+  background-color: rgba(128, 0, 0, 1);
+  border-bottom-width: 1px;
+}
+#custom-menu.navbar-default .navbar-nav>li>a {
+  color: rgba(195, 33, 72, 1);
+  background-color: rgba(248, 248, 248, 0);
+}
+#custom-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-menu.navbar-default .navbar-nav>li>a:focus {
+  color: rgba(255, 255, 159, 1);
+  background-color: rgba(195, 33, 72, 1);
+}
+#custom-menu.navbar-default .navbar-nav>.active>a,
+#custom-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-menu.navbar-default .navbar-nav>.active>a:focus {
+  color: rgba(128, 0, 0, 1);
+  background-color: rgba(242, 186, 73, 1);
+}
+#custom-menu.navbar-default .navbar-toggle {
+  border-color: #f2ba49;
+}
+#custom-menu.navbar-default .navbar-toggle:hover,
+#custom-menu.navbar-default .navbar-toggle:focus {
+  background-color: #f2ba49;
+}
+#custom-menu.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f2ba49;
+}
+#custom-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-menu.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #800000;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
