@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title><?php echo $title; ?></title>
                <meta name="description" content="Food fuzz - Food delivery system in western kenya">
-        <meta name="keywords" content="Food, Drinks, mobile, app, Food delivery, ios, android, Kisumu">
+        <meta name="keywords" content="CEC, Church, Kakamega, Kenya, Africa, android, Kisumu">
         <!-- Font -->
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
