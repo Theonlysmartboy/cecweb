@@ -22,7 +22,7 @@
     </head>
     <body data-spy="scroll" data-target="#navbar" data-offset="30">
         @include('layouts.front_layout.header')
-        <main role="main" class="container">
+        <main role="main" class="container-fluid">
         @yield('content')
         @include('layouts.front_layout.footer')
         </main>

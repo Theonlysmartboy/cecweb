@@ -9,7 +9,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+      <img class="first-slide" src="{{asset('images/webimgs/IMG-20200511-WA0013.jpg')}}" alt="First slide">
       <div class="container">
         <div class="carousel-caption text-left">
           <h1>Example headline.</h1>
@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+      <img class="second-slide" src="{{asset('images/webimgs/pastors/service1.jpg')}}" alt="Second slide">
       <div class="container">
         <div class="carousel-caption">
           <h1>Another example headline.</h1>
@@ -73,7 +73,7 @@
     <div class="col-lg-4">
       <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
       <h2>Heading</h2>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum.</p>
       <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
   </div><!-- /.row -->

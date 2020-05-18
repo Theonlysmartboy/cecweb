@@ -32,11 +32,9 @@ Copyright © All rights Reserved
 ----------------------*/
 
 body {
-    font-family: 'Rubik', sans-serif;
-    position: relative;
-}
-.container {
-  max-width: 960px;
+  padding:0;
+  margin: 0;
+  color: #5a5a5a;
 }
 
 /*
@@ -56,6 +54,7 @@ body {
   color: #c32148;
   text-decoration: none;
 }
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
