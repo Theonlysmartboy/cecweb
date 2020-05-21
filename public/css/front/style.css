@@ -1,8 +1,6 @@
 /*--
-	Author: W3Layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
+	Author: Otema Technologies
+	Author URL: https://otemainc.com
 --*/
 
 html,
@@ -174,7 +172,7 @@ span.desc {
 /*-- banner --*/
 
 .carousel .item {
-    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../../images/webimgs/banner1.jpg) no-repeat;
+    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../images/webimgs/banner1.jpg) no-repeat;
     background: -moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../images/webimgs/banner1.jpg) no-repeat;
     background: -ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../images/webimgs/banner1.jpg) no-repeat;
     background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../../images/webimgs/banner1.jpg) no-repeat;
@@ -499,7 +497,7 @@ p.sub_p {
 }
 
 .banner_inner_con {
-    background: url(../../images/banner2.jpg) no-repeat 0px 0px;
+    background: url(../../images/webimgs/banner2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -609,7 +607,7 @@ h3.tittle-w3ls.cen {
 }
 
 .a2 {
-    background: url(../../images/g1.jpg) no-repeat 0px 0px;
+    background: url(../../images/webimgs/g1.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -619,7 +617,7 @@ h3.tittle-w3ls.cen {
 }
 
 .a3 {
-    background: url(../../images/banner2.jpg) no-repeat 0px 0px;
+    background: url(../../images/webimgs/banner2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -629,7 +627,7 @@ h3.tittle-w3ls.cen {
 }
 
 .a5 {
-    background: url(../../images/g5.jpg) no-repeat 0px 0px;
+    background: url(../../images/webimgs/g5.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -639,7 +637,7 @@ h3.tittle-w3ls.cen {
 }
 
 .a6 {
-    background: url(../../images/g8.jpg) no-repeat 0px 0px;
+    background: url(../../images/webimgs/g8.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -707,7 +705,7 @@ a.blog-btn:hover {
     padding: 7em 0;
     background: #222222;
     text-align: center;
-    background: url(../../images/bottom.jpg) no-repeat 0px 0px;
+    background: url(../../images/webimgs/bottom.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1530,7 +1528,7 @@ p.copy-right a:hover {
     height: 32px;
     border: none;
     text-indent: 100%;
-    background: url(../../images/top_move.png) no-repeat 0px 0px;
+    background: url(../../images/webimgs/top_move.png) no-repeat 0px 0px;
 }
 
 /*--responsive--*/

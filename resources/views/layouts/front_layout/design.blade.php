@@ -8,6 +8,17 @@
         <title><?php echo $title; ?></title>
                <meta name="description" content="Food fuzz - Food delivery system in western kenya">
         <meta name="keywords" content="CEC, Church, Kakamega, Kenya, Africa, android, Kisumu">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/icons/favicon/apple-touch-icon.png') }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/icons/favicon/favicon-32x32.png')}}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ asset('images/icons/favicon/android-chrome-192x192.png')}}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/icons/favicon/favicon-16x16.png')}}">
+<link rel="manifest" href="{{ asset('images/icons/favicon/site.webmanifest')}}">
+<link rel="mask-icon" href="{{ asset('images/icons/favicon/safari-pinned-tab.svg')}}" color="#5bbad5">
+<link rel="shortcut icon" href="{{ asset('images/icons/favicon/favicon.ico')}}">
+<meta name="msapplication-TileColor" content="#b91d47">
+<meta name="msapplication-TileImage" content="{{ asset('images/icons/favicon/mstile-144x144.png')}}">
+<meta name="msapplication-config" content="{{ asset('images/icons/favicon/browserconfig.xml')}}">
+<meta name="theme-color" content="#ffffff">
         <script type="application/x-javascript">
             addEventListener("load", function () {
                 setTimeout(hideURLbar, 0);

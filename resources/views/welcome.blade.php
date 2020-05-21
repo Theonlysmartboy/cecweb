@@ -11,7 +11,7 @@
           <img src="{{ asset('images/webimgs/banner1.jpg') }}" alt=" " class="img-responsive">
         </div>
         <div class="col-md-6 banner_bottom_left">
-          <h4>Working to build a better web design</h4>
+          <h4>We are ligth to the world</h4>
           <p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
             pulvinar neque pharetra ac.</p>
           <p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
@@ -419,7 +419,7 @@
                 <blockquote>
                   <div class="test_grid">
                     <div class="col-sm-3 text-center test_img">
-                      <img src="{{ asset('images/webimgs/t1.')}}'" class="img-responsive" alt="">
+                      <img src="{{ asset('images/webimgs/t1.jpg')}}" class="img-responsive" alt="">
 
                     </div>
                     <div class="col-sm-9 test_img_info">
