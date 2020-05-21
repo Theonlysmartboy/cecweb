@@ -1,243 +1,488 @@
 @extends('layouts.front_layout.design')
 @section('content')
-    
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="first-slide" src="{{asset('images/webimgs/IMG-20200511-WA0013.jpg')}}" alt="First slide">
-      <div class="container">
-        <div class="carousel-caption text-left">
-          <h1>Example headline.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+<!--/ab-->
+<div class="banner_bottom">
+  <div class="container">
+    <h3 class="tittle-w3ls">About Us</h3>
+    <div class="inner_sec_info_wthree_agile">
+      <div class="help_full">
+
+        <div class="col-md-6 banner_bottom_grid help">
+          <img src="{{ asset('images/webimgs/banner1.jpg') }}" alt=" " class="img-responsive">
         </div>
+        <div class="col-md-6 banner_bottom_left">
+          <h4>Working to build a better web design</h4>
+          <p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
+            pulvinar neque pharetra ac.</p>
+          <p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
+            pulvinar neque pharetra ac.</p>
+          <div class="ab_button">
+            <a class="btn btn-primary btn-lg hvr-underline-from-left" href="single.html" role="button">Read More </a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
       </div>
     </div>
-    <div class="carousel-item">
-      <img class="second-slide" src="{{asset('images/webimgs/pastors/service1.jpg')}}" alt="Second slide">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Another example headline.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+    <div class="news-main">
+      <div class="col-md-4 banner_bottom_left">
+        <div class="banner_bottom_pos">
+          <div class="banner_bottom_pos_grid">
+            <div class="col-xs-3 banner_bottom_grid_left">
+              <div class="banner_bottom_grid_left_grid">
+                <span class="fa fa-laptop" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="col-xs-9 banner_bottom_grid_right">
+              <h4>Digital Solutions</h4>
+              <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+
+            </div>
+            <div class="clearfix"> </div>
+          </div>
         </div>
       </div>
+      <div class="col-md-4 banner_bottom_left">
+        <div class="banner_bottom_pos">
+          <div class="banner_bottom_pos_grid">
+            <div class="col-xs-3 banner_bottom_grid_left">
+              <div class="banner_bottom_grid_left_grid">
+                <span class="fa fa-pencil-square-o" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="col-xs-9 banner_bottom_grid_right">
+              <h4>Live Website Builder</h4>
+              <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+
+            </div>
+            <div class="clearfix"> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 banner_bottom_left">
+        <div class="banner_bottom_pos">
+          <div class="banner_bottom_pos_grid">
+            <div class="col-xs-3 banner_bottom_grid_left">
+              <div class="banner_bottom_grid_left_grid">
+                <span class="fa fa-newspaper-o" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="col-xs-9 banner_bottom_grid_right">
+              <h4>Creative Strategy</h4>
+              <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
+
+            </div>
+            <div class="clearfix"> </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
     </div>
-    <div class="carousel-item">
-      <img class="third-slide" src="{{asset('images/webimgs/pastors/saints_gathering.jpg')}}" alt="Third slide">
-      <div class="container">
-        <div class="carousel-caption text-right">
-          <h1>One more for good measure.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+  </div>
+</div>
+<!--//ab-->
+<!--/what-->
+<div class="works">
+  <div class="container">
+    <h3 class="tittle-w3ls cen">What we do</h3>
+    <div class="inner_sec_info_wthree_agile">
+      <div class="ser-first">
+        <div class="col-md-3 ser-first-grid text-center">
+          <span class="fa fa-shield" aria-hidden="true"></span>
+          <h3>Unique Design</h3>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div class="col-md-3 ser-first-grid text-center">
+          <span class="fa fa-pencil" aria-hidden="true"></span>
+          <h3>Different Layout</h3>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div class="col-md-3 ser-first-grid text-center">
+          <span class="fa fa-star" aria-hidden="true"></span>
+          <h3>Portfolio Styles</h3>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div class="col-md-3 ser-first-grid text-center">
+          <span class="fa fa-thumbs-up" aria-hidden="true"></span>
+          <h3>User Experience</h3>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--//what-->
+<!--/banner_bottom-->
+<div class="banner_bottom">
+  <div class="banner_bottom_in">
+    <h3 class="tittle-w3ls we">We provide high quality and cost effective offshore web development services.</h3>
+
+    <p>Lorem ipsum dolor sit amet, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+
+    <img src="{{ asset('images/webimgs/banner_mid.jpg')}}" class="img-responsive" alt="">
+  </div>
+</div>
+<!--//banner_bottom-->
+<!--/projects-->
+<div class="banner_bottom proj">
+  <div class="wrap_view">
+    <h3 class="tittle-w3ls">Projects</h3>
+    <div class="inner_sec">
+      <ul class="portfolio-categ filter">
+        <li class="port-filter all active">
+          <a href="#">All</a>
+        </li>
+        <li class="cat-item-1">
+          <a href="#" title="Category 1">Category 1</a>
+        </li>
+        <li class="cat-item-2">
+          <a href="#" title="Category 2">Category 2</a>
+        </li>
+        <li class="cat-item-3">
+          <a href="#" title="Category 3">Category 3</a>
+        </li>
+        <li class="cat-item-4">
+          <a href="#" title="Category 4">Category 4</a>
+        </li>
+      </ul>
+
+
+      <ul class="portfolio-area">
+
+        <li class="portfolio-item2" data-id="id-0" data-type="cat-item-4">
+          <div>
+            <span class="image-block img-hover">
+            <a class="image-zoom" href="{{ asset('images/webimgs/g1.jpg')}}" rel="prettyPhoto[gallery]">
+            
+                <img src="{{ asset('images/webimgs/g1.jpg')}}" class="img-responsive" alt="Conceit">
+                <div class="port-info">
+                    <h5>View Project</h5>
+                    <p>Add Some Description</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2" data-id="id-1" data-type="cat-item-2">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="{{ asset('images/webimgs/g2.jpg')}}" rel="prettyPhoto[gallery]">
+              
+                <img src="{{ asset('images/webimgs/g2.jpg')}}" class="img-responsive" alt="Conceit">
+              <div class="port-info">
+                    <h5>View Project</h5>
+                    <p>Add Some Description</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2" data-id="id-2" data-type="cat-item-1">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="{{ asset('images/webimgs/g3.jpg')}}" rel="prettyPhoto[gallery]">
+            
+                <img src="{{ asset('images/webimgs/g3.jpg')}}" class="img-responsive" alt="Conceit">
+              <div class="port-info">
+                    <h5>View Project</h5>
+                    <p>Add Some Description</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2" data-id="id-3" data-type="cat-item-4">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="{{ asset('images/webimgs/g4.jpg')}}" rel="prettyPhoto[gallery]">
+              
+                <img src="{{ asset('images/webimgs/g4.jpg')}}" class="img-responsive" alt="Conceit">
+                <div class="port-info">
+                    <h5>View Project</h5>
+                    <p>Add Some Description</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2" data-id="id-4" data-type="cat-item-3">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="{{ asset('images/webimgs/g5.jpg')}}" rel="prettyPhoto[gallery]">
+              
+                <img src="{{ asset('images/webimgs/g5.jpg')}}" class="img-responsive" alt="Conceit">
+                <div class="port-info">
+                    <h5>View Project</h5>
+                    <p>Add Some Description</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2" data-id="id-5" data-type="cat-item-2">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="{{ asset('images/webimgs/g6.jpg')}}" rel="prettyPhoto[gallery]">
+              
+                <img src="{{ asset('images/webimgs/g6.jpg')}}" class="img-responsive" alt="Conceit">
+                <div class="port-info">
+                    <h5>View Project</h5>
+                    <p>Add Some Description</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2" data-id="id-6" data-type="cat-item-1">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="{{ asset('images/webimgs/g7.jpg')}}" rel="prettyPhoto[gallery]">
+            
+                <img src="{{ asset('images/webimgs/g7.jpg')}}" class="img-responsive" alt="Conceit">
+                    <div class="port-info">
+                    <h5>View Project</h5>
+                    <p>Add Some Description</p>
+                  </div>
+            </a>
+          </span>
+          </div>
+        </li>
+
+
+        <li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
+          <div>
+            <span class="image-block">
+            <a class="image-zoom" href="{{ asset('images/webimgs/g8.jpg')}}" rel="prettyPhoto[gallery]">
+              
+                <img src="{{ asset('images/webimgs/g8.jpg')}}" class="img-responsive" alt="Conceit">
+                  <div class="port-info">
+                    <h5>View Project</h5>
+                    <p>Add Some Description</p>
+                  </div>
+            
+            </a>
+          </span>
+          </div>
+        </li>
+
+        <div class="clearfix"></div>
+      </ul>
+      <!--end portfolio-area -->
+
+    </div>
+
+  </div>
+</div>
+
+<!--//projects-->
+<!--/blog-->
+<div class="blog_sec">
+  <h3 class="tittle-w3ls">Latest Blogs</h3>
+  <div class="col-md-6 banner-btm-left">
+    <div class="banner-btm-top">
+      <div class="banner-btm-inner a1">
+        <div class="blog_date">
+
+          <h4>Jan.05.2018</h4>
+
+        </div>
+        <h6><a href="single.html">Strategic Planning</a></h6>
+        <p class="paragraph">Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
+        <div class="clearfix"></div>
+        <a href="single.html" class="blog-btn">Know More</a>
+      </div>
+      <div class="banner-btm-inner a2">
+
+      </div>
+    </div>
+    <div class="banner-btm-bottom">
+      <div class="banner-btm-inner a3">
+
+      </div>
+      <div class="banner-btm-inner a4">
+        <div class="blog_date">
+
+          <h4>Jan.08.2018</h4>
+
+        </div>
+        <h6><a href="single.html">Strategic Planning</a></h6>
+        <p class="paragraph">Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
+        <div class="clearfix"></div>
+        <a href="single.html" class="blog-btn">Know More</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 banner-btm-left">
+    <div class="banner-btm-top">
+      <div class="banner-btm-inner a1">
+        <div class="blog_date">
+
+          <h4>Jan.25.2018</h4>
+
+        </div>
+        <h6><a href="single.html">Strategic Planning</a></h6>
+        <p class="paragraph">Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
+        <div class="clearfix"></div>
+        <a href="single.html" class="blog-btn">Know More</a>
+      </div>
+      <div class="banner-btm-inner a5">
+
+      </div>
+    </div>
+    <div class="banner-btm-bottom">
+      <div class="banner-btm-inner a6">
+
+      </div>
+      <div class="banner-btm-inner a4">
+        <div class="blog_date">
+
+          <h4>Jan.05.2018</h4>
+
+        </div>
+        <h6><a href="single.html">Strategic Planning</a></h6>
+        <p class="paragraph">Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
+        <div class="clearfix"></div>
+        <a href="single.html" class="blog-btn">Know More</a>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+</div>
+
+<!--//blog-->
+<!--/bottom-->
+<div class="banner_bottom">
+  <div class="container">
+    <h3 class="tittle-w3ls">Let’s Change How We Manage Business
+    </h3>
+    <div class="inner_sec_info_wthree_agile">
+      <div class="help_full">
+
+        <div class="col-md-6 banner_bottom_left">
+          <h4>Entrepreneurs Get Their Act Together </h4>
+          <p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
+            pulvinar neque pharetra ac. Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla
+            viverra pharetra sem, eget pulvinar neque pharetra ac.
+
+          </p>
+          <div class="ab_button">
+            <a class="btn btn-primary btn-lg hvr-underline-from-left" href="single.html" role="button">Read More </a>
+          </div>
+
+
+        </div>
+
+        <div class="col-md-6 banner_bottom_grid help">
+          <img src="{{ asset('images/webimgs/banner_mid.jpg')}}" alt=" " class="img-responsive">
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--//bottom-->
+<!--/testimonials-->
+<div class="tesimonials">
+  <div class="container">
+    <h3 class="tittle-w3ls cen">Testimonials</h3>
+    <div class="inner_sec">
+      <div class="test_grid_sec">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="carousel slide two" data-ride="carousel" id="quote-carousel">
+            <!-- Bottom Carousel Indicators -->
+            <ol class="carousel-indicators two">
+              <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#quote-carousel" data-slide-to="1"></li>
+              <li data-target="#quote-carousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Carousel Slides / Quotes -->
+            <div class="carousel-inner">
+
+              <!-- Quote 1 -->
+              <div class="item active">
+                <blockquote>
+                  <div class="test_grid">
+                    <div class="col-sm-3 text-center test_img">
+                      <img src="{{ asset('images/webimgs/t1.')}}'" class="img-responsive" alt="">
+
+                    </div>
+                    <div class="col-sm-9 test_img_info">
+                      <p>Maecenas quis neque libero. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                        auctor nec lacus ut tempor. Mauris.</p>
+                      <h6>Sara Lisbon</h6>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- Quote 2 -->
+              <div class="item">
+                <blockquote>
+                  <div class="test_grid">
+                    <div class="col-sm-3 text-center test_img">
+                      <img src="{{ asset('images/webimgs/t2.jpg')}}" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-9 test_img_info">
+                      <p>Lorem ipsum dolor sit amet. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                        auctor nec lacus ut tempor. Mauris.</p>
+                      <h6>Jane Wearne</h6>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- Quote 3 -->
+              <div class="item">
+                <blockquote>
+                  <div class="test_grid">
+                    <div class="col-sm-3 text-center test_img">
+                      <img src="{{ asset('images/webimgs/t3.jpg')}}" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-9 test_img_info">
+                      <p>Maecenas quis neque libero. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                        auctor nec lacus ut tempor. Mauris.</p>
+                      <h6>Alice Williams</h6>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
+<!--//testimonials-->
 
-
-<!-- Marketing messaging and featurettes
-================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
-<div class="jumbotron" style="margin-top: -65px;">
-  <form action="{{ route('subscribe') }}" method="POST">@csrf
-    <input type="text" class="form-control" id="email" name="email" placeholder="john@doe.com" required/>
-    <input type="submit" class="form-control" value="Subscribe"/>
-  </form>
-  
-</div>
-
-<div class="container marketing">
-
-  <!-- Three columns of text below the carousel -->
-  <div class="row">
-    <div class="col-lg-4">
-      <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-      <h2>Heading</h2>
-      <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-      <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-      <h2>Heading</h2>
-      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-    <div class="col-lg-4">
-      <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-      <h2>Heading</h2>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum.</p>
-      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-    </div><!-- /.col-lg-4 -->
-  </div><!-- /.row -->
-  <section class="jumbotron text-center">
-    <div class="container">
-      <h1 class="jumbotron-heading">Album example</h1>
-      <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-      <p>
-        <a href="#" class="btn btn-primary my-2">Main call to action</a>
-        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-      </p>
-    </div>
-  </section>
-
-  <div class="album py-5 bg-light">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<!-- /newsletter-->
+<div class="newsletter_w3ls_agileits">
+  <div class="col-sm-6 newsleft">
+    <h3>Sign up for Newsletter !</h3>
+  </div>
+  <div class="col-sm-6 newsright">
+    <form action="#" method="post">
+      <input type="email" placeholder="Enter your email..." name="email" required="">
+      <input type="submit" value="Submit">
+    </form>
   </div>
 
+  <div class="clearfix"></div>
+</div>
+<!-- //newsletter-->
         @endsection

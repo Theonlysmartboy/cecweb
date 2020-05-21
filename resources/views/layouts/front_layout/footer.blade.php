@@ -1,49 +1,106 @@
-  <!-- FOOTER -->
-  <footer class="container py-5">
-    <div class="row">
-      <div class="col-12 col-md">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
-        <small class="d-block mb-3 text-muted">&copy; 2020</small>
-        Web design by <a href="https://otemainc.com" target="-blank">Otema Technologies</a>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Features</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Cool stuff</a></li>
-          <li><a class="text-muted" href="#">Random feature</a></li>
-          <li><a class="text-muted" href="#">Team feature</a></li>
-          <li><a class="text-muted" href="#">Stuff for developers</a></li>
-          <li><a class="text-muted" href="#">Another one</a></li>
-          <li><a class="text-muted" href="#">Last time</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Resource</a></li>
-          <li><a class="text-muted" href="#">Resource name</a></li>
-          <li><a class="text-muted" href="#">Another resource</a></li>
-          <li><a class="text-muted" href="#">Final resource</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Business</a></li>
-          <li><a class="text-muted" href="#">Education</a></li>
-          <li><a class="text-muted" href="#">Government</a></li>
-          <li><a class="text-muted" href="#">Gaming</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>About</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Team</a></li>
-          <li><a class="text-muted" href="#">Locations</a></li>
-          <li><a class="text-muted" href="#">Privacy</a></li>
-          <li><a class="text-muted" href="#">Terms</a></li>
-        </ul>
+<!-- footer -->
+<div class="footer">
+  <div class="footer_inner_info_w3ls_agileits">
+    <div class="col-md-3 footer-left">
+      <h2><a href="index.html"><i class="fa fa-clone" aria-hidden="true"></i> Conceit </a></h2>
+      <p>Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</p>
+      <ul class="social-nav model-3d-0 footer-social social two">
+        <li>
+          <a href="#" class="facebook">
+            <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+            <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="twitter">
+            <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+            <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="instagram">
+            <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+            <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="pinterest">
+            <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+            <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-9 footer-right">
+      <div class="sign-grds">
+        <div class="col-md-4 sign-gd">
+          <h4>Latest <span>Info</span> </h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="404.html">Services</a></li>
+            <li><a href="signin.html">Signin</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 sign-gd flickr-post">
+          <h4>Our <span>Works</span></h4>
+          <ul>
+            <li><a href="single.html"><img src="{{ asset('images/webimgs/g1.jpg') }}" alt=" " class="img-responsive" /></a></li>
+            <li><a href="single.html"><img src="{{ asset('images/webimgs/g2.jpg')}}" alt=" " class="img-responsive" /></a></li>
+            <li><a href="single.html"><img src="{{ asset('images/webimgs/g3.jpg')}}" alt=" " class="img-responsive" /></a></li>
+            <li><a href="single.html"><img src="{{ asset('images/webimgs/g4.jpg')}}" alt=" " class="img-responsive" /></a></li>
+            <li><a href="single.html"><img src="{{ asset('images/webimgs/g5.jpg')}}" alt=" " class="img-responsive" /></a></li>
+            <li><a href="single.html"><img src="{{ asset('images/webimgs/g6.jpg')}}" alt=" " class="img-responsive" /></a></li>
+            <li><a href="single.html"><img src="{{ asset('images/webimgs/g7.jpg')}}" alt=" " class="img-responsive" /></a></li>
+            <li><a href="single.html"><img src="{{ asset('images/webimgs/g8.jpg')}}" alt=" " class="img-responsive" /></a></li>
+            <li><a href="single.html"><img src="{{ asset('images/webimgs/g4.jpg')}}" alt=" " class="img-responsive" /></a></li>
+          </ul>
+        </div>
+        <div class="col-md-5 sign-gd-two">
+          <h4>Contact <span>Information</span></h4>
+          <div class="address">
+            <div class="address-grid">
+              <div class="address-left">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <div class="address-right">
+                <h6>Phone Number</h6>
+                <p>+1 234 567 8901</p>
+              </div>
+              <div class="clearfix"> </div>
+            </div>
+            <div class="address-grid">
+              <div class="address-left">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </div>
+              <div class="address-right">
+                <h6>Email Address</h6>
+                <p>Email :<a href="mailto:example@email.com"> mail@example.com</a></p>
+              </div>
+              <div class="clearfix"> </div>
+            </div>
+            <div class="address-grid">
+              <div class="address-left">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              </div>
+              <div class="address-right">
+                <h6>Location</h6>
+                <p>Broome St, NY 10002,California, USA.
+
+                </p>
+              </div>
+              <div class="clearfix"> </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
       </div>
     </div>
-  </footer>
-
+    <div class="clearfix"></div>
+    <p class="copy-right">&copy 2020 CEC. All rights reserved | Design by <a href="https://otemainc.com/">Otema Technologies</a></p>
+  </div>
+</div>
+</div>
+<!-- //footer -->
