@@ -110,13 +110,13 @@ span.input.input--chisato:nth-child(2) {
 	position: absolute;
 	top: -200%;
 	left: 0;
-	color: #76daff;
+	color: #ff9d2f;
 	font-weight: 600;
 }
 
 .input__field--chisato:focus,
 .input--filled .input__field--chisato {
-	border-color: #76daff;
+	border-color: #ff9d2f;
 }
 
 .input__field--chisato:focus+.input__label--chisato,
@@ -218,7 +218,7 @@ span.input.input--chisato:nth-child(2) {
 
 .mail_form input[type="submit"] {
 	outline: none;
-    background: #76daff;
+    background: #ff9d2f;
 	color: #fff;
 	padding: 1em 0;
 	font-size: 1em;
@@ -229,7 +229,7 @@ span.input.input--chisato:nth-child(2) {
 }
 
 .mail_form input[type="submit"]:hover {
-    background: #ff3c41;
+    background: #800000;
 }
 
 .map iframe {
@@ -261,7 +261,7 @@ span.input.input--chisato:nth-child(2) {
 
 .agile_contact_grid_left i {
 	font-size: 3em;
-	color: #168eea;
+	color: #ff9d2f;
 	line-height: 2em;
 }
 

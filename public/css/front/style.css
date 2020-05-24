@@ -162,7 +162,7 @@ span.desc {
 }
 
 .logo-w3layouts-agileits i.fa {
-    color: #76daff;
+    color: #ff9d2f;
 }
 
 /*-- header --*/
@@ -438,7 +438,7 @@ p.sub_p {
     font-size: 0.8em;
     letter-spacing: 1px;
     background: #ffffff;
-    border: 2px solid rgb(118, 218, 255);
+    border: 2px solid rgb(80, 0, 0);
     border-radius: 0;
     font-weight: 700;
     text-transform: uppercase;
@@ -450,11 +450,15 @@ p.sub_p {
 }
 
 .ab_button a:hover {
-    background: #76daff;
-    border: 2px solid #76daff;
+    background: #ff9d2f;
+    border: 2px solid #ff9d2f;
     color: #fff;
 }
-
+.ab_button a:active{
+    background: #C70039;
+    border: 2px solid #C70039;
+    color: #fff;
+}
 .banner_bottom_in h3 {
     line-height: 1.3em;
 }
@@ -474,7 +478,7 @@ p.sub_p {
 
 .banner_bottom_grid_left_grid span {
     font-size: 2em;
-    color: #76daff;
+    color: #ff9d2f;
     line-height: 62px;
 }
 
@@ -520,7 +524,7 @@ ul.short li {
 }
 
 ul.short li a {
-    color: #76daff;
+    color: #ff9d2f;
     text-decoration: none;
 }
 
@@ -566,8 +570,8 @@ h3.tittle-w3ls.cen {
 }
 
 .ser-first-grid:hover span {
-    color: #76daff;
-    border: 2px solid #76daff;
+    color: #ff9d2f;
+    border: 2px solid #ff9d2f;
 }
 
 .ser-first-grid p {
@@ -599,11 +603,11 @@ h3.tittle-w3ls.cen {
 }
 
 .a1 {
-    background: #76daff;
+    background: #ff9d2f;
 }
 
 .a4 {
-    background: #57cefb;
+    background: #C70039;
 }
 
 .a2 {
@@ -805,7 +809,7 @@ ol.carousel-indicators.two {
 }
 
 .test_img_info h6 {
-    color: #76daff;
+    color: #ff9d2f;
     font-size: 1em;
     font-weight: 600;
     margin-bottom: 2em;
@@ -891,12 +895,12 @@ ol.carousel-indicators.two {
     margin: 0 0 0 -4px;
     font-weight: 600;
     letter-spacing: 1px;
-    background: #76daff;
+    background: #ff9d2f;
     color: #fff;
 }
 
 .newsright input[type="submit"]:hover {
-    background: #080808;
+    background: #C70039;
     color: #ffffff;
 }
 
@@ -990,7 +994,7 @@ button.btn1 {
     padding: 12px 0;
     text-align: center;
     text-decoration: none;
-    background: #76daff;
+    background: #ff9d2f;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -1118,7 +1122,7 @@ h3.agileinfo_sign {
     color: #FFFFFF;
     text-transform: uppercase;
     cursor: pointer;
-    background: #76daff;
+    background: #ff9d2f;
     box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
 }
 
@@ -1329,7 +1333,7 @@ ul.social-nav.model-3d-0.footer-social.social.two {
 }
 
 .address-right p a {
-    color: #76daff;
+    color: #ff9d2f;
     text-decoration: none;
 }
 
@@ -1489,7 +1493,7 @@ p.copy-right {
 }
 
 p.copy-right a {
-    color: #76daff;
+    color: #ff9d2f;
     text-decoration: none;
 }
 
@@ -1505,7 +1509,7 @@ p.copy-right a:hover {
 }
 
 .footer-left h2 i.fa {
-    color: #76daff;
+    color: #ff9d2f;
 }
 
 .footer-left h2 a span {

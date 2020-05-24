@@ -91,7 +91,7 @@ h6.media-heading {
 .comment-bottom input[type="submit"] {
     width: 30%;
     font-size: 1.1em;
-    background: #76daff;
+    background: #ff9d2f;
     padding: 0.7em 1em;
     text-align: center;
     color: #fff;
@@ -109,7 +109,7 @@ h6.media-heading {
     background: #080808;
 }
 .comment h3, .comment-top h4 {
-    color: #ff3c41;
+    color: #800000;
     font-size: 1.8em;
     text-align: left;
     padding: 0 0 0.5em;
@@ -126,7 +126,7 @@ h6.media-heading {
 .blog-text h5 {
     font-size: 1.7em;
     margin: 0.6em 0;
-    color: #ff3c41;
+    color: #800000;
     font-weight: 600;
 }
 /*--//single--*/
@@ -142,7 +142,7 @@ h6.media-heading {
     letter-spacing: 3px;
 }
 .blo-top form input[type="submit"] {
-    background: #76daff;
+    background: #ff9d2f;
     padding: .7em 1em;
     color: #fff;
     font-size: 15px;

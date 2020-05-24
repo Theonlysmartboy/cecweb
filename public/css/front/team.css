@@ -16,7 +16,8 @@ body a {
 }
 
 .team_grid_info:nth-child(1),
-.team_grid_info:nth-child(3) {
+.team_grid_info:nth-child(3),
+.team_grid_info:nth-child(5) {
 	margin-top: 5em;
 }
 
@@ -68,8 +69,8 @@ ul.team_icons li {
 }
 
 .team_icons ul li a i.fa:hover {
-	color: #76daff;
-	border: 1px solid #76daff;
+	color: #ff9d2f;
+	border: 1px solid #ff9d2f;
 }
 
 .team_grid_info img {
@@ -89,11 +90,13 @@ ul.team_icons li {
 	.team_grid_info:nth-child(1),
 	.team_grid_info:nth-child(3),
 	.team_grid_info:nth-child(4),
-	.team_grid_info:nth-child(2) {
+	.team_grid_info:nth-child(2),
+	.team_grid_info:nth-child(6),
+	.team_grid_info:nth-child(5) {
 		margin-top: 0em;
 	}
 	.team_grid_info {
-		width: 47%;
+		width: 40%;
 		float: left;
 		margin: 3% 1%;
 	}

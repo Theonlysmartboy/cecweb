@@ -13,14 +13,14 @@
 			<div class="item active">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>Build Effective Designs</h3>
-						<p>Solutions made easy</p>
+						<h3>Christ’s Evangelistic Church</h3>
+						<p>We are the Light of the World</p>
 						<div class="top-buttons">
 							<div class="bnr-button">
 								<a class="act" href="single.html">Read More</a>
 							</div>
 							<div class="bnr-button">
-								<a href="portfolio.html" class="two scroll ">Portfolio</a>
+								<a href="portfolio.html" class="two scroll ">Join Us</a>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -30,14 +30,16 @@
 			<div class="item item2">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>Best Business Thinking</h3>
-						<p>You deserve the best</p>
+						<h3>Bible based</h3>
+						<p>Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the 
+              Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end 
+              of the age” (Matthew 28:18-20)</p>
 						<div class="top-buttons">
 							<div class="bnr-button">
 								<a class="act" href="single.html">Read More</a>
 							</div>
 							<div class="bnr-button">
-								<a href="portfolio.html" class="two scroll ">Portfolio</a>
+								<a href="portfolio.html" class="two scroll ">Join Us</a>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -47,14 +49,14 @@
 			<div class="item item3">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>Build Effective Designs</h3>
-						<p>Solutions made easy</p>
+						<h3>Christ Centre</h3>
+						<p>Christ is the the only way through which one can be saved and Therefore on Him alone we base our beliefs</p>
 						<div class="top-buttons">
 							<div class="bnr-button">
 								<a class="act" href="single.html">Read More</a>
 							</div>
 							<div class="bnr-button">
-								<a href="portfolio.html" class="two scroll ">Portfolio</a>
+								<a href="portfolio.html" class="two scroll ">Join Us</a>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -66,14 +68,14 @@
 				<div class="container">
 					<div class="carousel-caption">
 
-						<h3>Best Business Thinking</h3>
-						<p>You deserve the best</p>
+						<h3>people oriented</h3>
+						<p>---</p>
 						<div class="top-buttons">
 							<div class="bnr-button">
 								<a class="act" href="single.html">Read More</a>
 							</div>
 							<div class="bnr-button">
-								<a href="#portfolio" class="two scroll ">Portfolio</a>
+								<a href="#portfolio" class="two scroll ">Join Us</a>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -98,7 +100,6 @@
     <h3 class="tittle-w3ls">About Us</h3>
     <div class="inner_sec_info_wthree_agile">
       <div class="help_full">
-
         <div class="col-md-6 banner_bottom_grid help">
           <img src="{{ asset('images/webimgs/banner1.jpg') }}" alt=" " class="img-responsive">
         </div>
@@ -114,62 +115,7 @@
             <a class="btn btn-primary btn-lg hvr-underline-from-left" href="{{ route('about_us') }}" role="button">Read More </a>
           </div>
         </div>
-        <div class="clearfix"></div>
       </div>
-    </div>
-    <div class="news-main">
-      <div class="col-md-4 banner_bottom_left">
-        <div class="banner_bottom_pos">
-          <div class="banner_bottom_pos_grid">
-            <div class="col-xs-3 banner_bottom_grid_left">
-              <div class="banner_bottom_grid_left_grid">
-                <span class="fa fa-laptop" aria-hidden="true"></span>
-              </div>
-            </div>
-            <div class="col-xs-9 banner_bottom_grid_right">
-              <h4>Digital Solutions</h4>
-              <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-
-            </div>
-            <div class="clearfix"> </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 banner_bottom_left">
-        <div class="banner_bottom_pos">
-          <div class="banner_bottom_pos_grid">
-            <div class="col-xs-3 banner_bottom_grid_left">
-              <div class="banner_bottom_grid_left_grid">
-                <span class="fa fa-pencil-square-o" aria-hidden="true"></span>
-              </div>
-            </div>
-            <div class="col-xs-9 banner_bottom_grid_right">
-              <h4>Live Website Builder</h4>
-              <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-
-            </div>
-            <div class="clearfix"> </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 banner_bottom_left">
-        <div class="banner_bottom_pos">
-          <div class="banner_bottom_pos_grid">
-            <div class="col-xs-3 banner_bottom_grid_left">
-              <div class="banner_bottom_grid_left_grid">
-                <span class="fa fa-newspaper-o" aria-hidden="true"></span>
-              </div>
-            </div>
-            <div class="col-xs-9 banner_bottom_grid_right">
-              <h4>Creative Strategy</h4>
-              <p>Lorem Ipsum is simply text the printing and typesetting standard industry.</p>
-
-            </div>
-            <div class="clearfix"> </div>
-          </div>
-        </div>
-      </div>
-      <div class="clearfix"></div>
     </div>
   </div>
 </div>
@@ -177,28 +123,53 @@
 <!--/what-->
 <div class="works">
   <div class="container">
-    <h3 class="tittle-w3ls cen">What we do</h3>
+    <h3 class="tittle-w3ls cen">CORE VALUES</h3>
     <div class="inner_sec_info_wthree_agile">
       <div class="ser-first">
         <div class="col-md-3 ser-first-grid text-center">
           <span class="fa fa-shield" aria-hidden="true"></span>
-          <h3>Unique Design</h3>
-          <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <h3>Team work</h3>
+          <p></p>
         </div>
         <div class="col-md-3 ser-first-grid text-center">
           <span class="fa fa-pencil" aria-hidden="true"></span>
-          <h3>Different Layout</h3>
-          <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <h3>Integrity in all aspects of Christian living</h3>
+          <p></p>
         </div>
         <div class="col-md-3 ser-first-grid text-center">
           <span class="fa fa-star" aria-hidden="true"></span>
-          <h3>Portfolio Styles</h3>
-          <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <h3>Accountability and transparency</h3>
+          <p></p>
         </div>
         <div class="col-md-3 ser-first-grid text-center">
           <span class="fa fa-thumbs-up" aria-hidden="true"></span>
-          <h3>User Experience</h3>
-          <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <h3>Diligence</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="inner_sec_info_wthree_agile">
+      <div class="ser-first">
+        <div class="col-md-3 ser-first-grid text-center">
+          <span class="fa fa-thumbs-up" aria-hidden="true"></span>
+          <h3>Responsibility</h3>
+          <p></p>
+        </div>
+        <div class="col-md-3 ser-first-grid text-center">
+          <span class="fa fa-heart" aria-hidden="true"></span>
+          <h3>Love</h3>
+          <p></p>
+        </div>
+        <div class="col-md-3 ser-first-grid text-center">
+          <span class="fa fa-heart" aria-hidden="true"></span>
+          <h3>Respect and loyalty</h3>
+          <p></p>
+        </div>
+        <div class="col-md-3 ser-first-grid text-center">
+          <span class="fa fa-heart" aria-hidden="true"></span>
+          <h3>Hospitality</h3>
+          <p></p>
         </div>
         <div class="clearfix"></div>
       </div>
@@ -579,4 +550,4 @@
   <div class="clearfix"></div>
 </div>
 <!-- //newsletter-->
-        @endsection
+@endsection
