@@ -1,97 +1,97 @@
 @extends('layouts.front_layout.design')
 @section('content')
 <!-- banner -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-    <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-    <li data-target="#myCarousel" data-slide-to="3" class=""></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <div class="container">
-        <div class="carousel-caption">
-          <h3>Build Effective Designs</h3>
-          <p>Solutions made easy</p>
-          <div class="top-buttons">
-            <div class="bnr-button">
-              <a class="act" href="single.html">Read More</a>
-            </div>
-            <div class="bnr-button">
-              <a href="portfolio.html" class="two scroll ">Portfolio</a>
-            </div>
-            <div class="clearfix"> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="item item2">
-      <div class="container">
-        <div class="carousel-caption">
-          <h3>Best Business Thinking</h3>
-          <p>You deserve the best</p>
-          <div class="top-buttons">
-            <div class="bnr-button">
-              <a class="act" href="single.html">Read More</a>
-            </div>
-            <div class="bnr-button">
-              <a href="portfolio.html" class="two scroll ">Portfolio</a>
-            </div>
-            <div class="clearfix"> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="item item3">
-      <div class="container">
-        <div class="carousel-caption">
-          <h3>Build Effective Designs</h3>
-          <p>Solutions made easy</p>
-          <div class="top-buttons">
-            <div class="bnr-button">
-              <a class="act" href="single.html">Read More</a>
-            </div>
-            <div class="bnr-button">
-              <a href="portfolio.html" class="two scroll ">Portfolio</a>
-            </div>
-            <div class="clearfix"> </div>
-          </div>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+			<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+			<li data-target="#myCarousel" data-slide-to="3" class=""></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>Build Effective Designs</h3>
+						<p>Solutions made easy</p>
+						<div class="top-buttons">
+							<div class="bnr-button">
+								<a class="act" href="single.html">Read More</a>
+							</div>
+							<div class="bnr-button">
+								<a href="portfolio.html" class="two scroll ">Portfolio</a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item item2">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>Best Business Thinking</h3>
+						<p>You deserve the best</p>
+						<div class="top-buttons">
+							<div class="bnr-button">
+								<a class="act" href="single.html">Read More</a>
+							</div>
+							<div class="bnr-button">
+								<a href="portfolio.html" class="two scroll ">Portfolio</a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item item3">
+				<div class="container">
+					<div class="carousel-caption">
+						<h3>Build Effective Designs</h3>
+						<p>Solutions made easy</p>
+						<div class="top-buttons">
+							<div class="bnr-button">
+								<a class="act" href="single.html">Read More</a>
+							</div>
+							<div class="bnr-button">
+								<a href="portfolio.html" class="two scroll ">Portfolio</a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
 
-        </div>
-      </div>
-    </div>
-    <div class="item item4">
-      <div class="container">
-        <div class="carousel-caption">
+					</div>
+				</div>
+			</div>
+			<div class="item item4">
+				<div class="container">
+					<div class="carousel-caption">
 
-          <h3>Best Business Thinking</h3>
-          <p>You deserve the best</p>
-          <div class="top-buttons">
-            <div class="bnr-button">
-              <a class="act" href="single.html">Read More</a>
-            </div>
-            <div class="bnr-button">
-              <a href="#portfolio" class="two scroll ">Portfolio</a>
-            </div>
-            <div class="clearfix"> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="fa fa-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="fa fa-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  <!-- The Modal -->
-</div>
-<!--//banner -->
+						<h3>Best Business Thinking</h3>
+						<p>You deserve the best</p>
+						<div class="top-buttons">
+							<div class="bnr-button">
+								<a class="act" href="single.html">Read More</a>
+							</div>
+							<div class="bnr-button">
+								<a href="#portfolio" class="two scroll ">Portfolio</a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="fa fa-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="fa fa-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		<!-- The Modal -->
+	</div>
+	<!--//banner -->
 <!--/ab-->
 <div class="banner_bottom">
   <div class="container">
@@ -103,13 +103,15 @@
           <img src="{{ asset('images/webimgs/banner1.jpg') }}" alt=" " class="img-responsive">
         </div>
         <div class="col-md-6 banner_bottom_left">
-          <h4>We are ligth to the world</h4>
-          <p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
-            pulvinar neque pharetra ac.</p>
-          <p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
-            pulvinar neque pharetra ac.</p>
+          <h4>Christ’s Evangelistic Church (CEC)</h4>
+          <p>We are a body of churches dedicated to serving God’s purposes in the present times and fulfilling the great commission 
+            <code>“Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the 
+              Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end 
+              of the age” (Matthew 28:18-20)</code> mandated by Jesus Christ. </p>
+              <h4>Our Vision</h4>
+              <p>To see people evangelized, discipled, equipped, empowered and serving God faithfully.</p>
           <div class="ab_button">
-            <a class="btn btn-primary btn-lg hvr-underline-from-left" href="single.html" role="button">Read More </a>
+            <a class="btn btn-primary btn-lg hvr-underline-from-left" href="{{ route('about_us') }}" role="button">Read More </a>
           </div>
         </div>
         <div class="clearfix"></div>

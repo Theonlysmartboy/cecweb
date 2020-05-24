@@ -6,8 +6,8 @@
         <!-- Tell the browser to be responsive to screen width -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title><?php echo $title; ?></title>
-               <meta name="description" content="Food fuzz - Food delivery system in western kenya">
-        <meta name="keywords" content="CEC, Church, Kakamega, Kenya, Africa, android, Kisumu">
+               <meta name="description" content="Christ’s Evangelistic Church,">
+        <meta name="keywords" content="CEC, Church, Kakamega, Kenya, Africa, Evangeliestic, Evangelism">
         <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/icons/favicon/apple-touch-icon.png') }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/icons/favicon/favicon-32x32.png')}}">
 <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('images/icons/favicon/android-chrome-192x192.png')}}">
