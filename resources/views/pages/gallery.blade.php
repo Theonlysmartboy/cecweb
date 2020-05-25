@@ -23,26 +23,130 @@
 						<a href="#">All</a>
 					</li>
 					<li class="cat-item-1">
-						<a href="#" title="Category 1">Category 1</a>
+						<a href="#" title="Category 1">Leaders</a>
 					</li>
 					<li class="cat-item-2">
-						<a href="#" title="Category 2">Category 2</a>
+						<a href="#" title="Category 2">Events</a>
 					</li>
 					<li class="cat-item-3">
-						<a href="#" title="Category 3">Category 3</a>
+						<a href="#" title="Category 3">Ministries & Branch Pictorials</a>
 					</li>
 					<li class="cat-item-4">
-						<a href="#" title="Category 4">Category 4</a>
+						<a href="#" title="Category 4">Other</a>
 					</li>
 				</ul>
 				<ul class="portfolio-area">
-					<li class="portfolio-item2" data-id="id-0" data-type="cat-item-4">
+                    <li class="portfolio-item2" data-id="id-2" data-type="cat-item-1">
 						<div>
-							<span class="image-block block2 img-hover">
-							<a class="image-zoom" href="images/g1.jpg" rel="prettyPhoto[gallery]">							
-									<img src="images/g1.jpg" class="img-responsive" alt="Conceit">
-									<div class="port-info">
-											<h5>View Project</h5>
+							<span class="image-block block2">
+							<a class="image-zoom" href="{{ asset('images/webimgs/pastors/bishop_opo.jpg') }}" rel="prettyPhoto[gallery]">
+							<img src="{{ asset('images/webimgs/pastors/bishop_opo.jpg') }}" class="img-responsive" alt="CEC Gallery">
+								<div class="port-info">
+											<h5>Bishop opo</h5>
+											<p>Description</p>
+										</div>
+							</a>
+						</span>
+						</div>
+					</li>
+					<li class="portfolio-item2" data-id="id-6" data-type="cat-item-1">
+						<div>
+							<span class="image-block block2">
+							<a class="image-zoom" href="{{ asset('images/webimgs/pastors/rev_bitok.jpg') }}" rel="prettyPhoto[gallery]">							
+									<img src="{{ asset('images/webimgs/pastors/rev_bitok.jpg') }}" class="img-responsive" alt="CEC Gallery">
+								      <div class="port-info">
+											<h5>Reverend Bitok</h5>
+											<p>Description</p>
+										</div>
+							</a>
+						</span>
+						</div>
+					</li>
+					<li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
+						<div>
+							<span class="image-block block2">
+							<a class="image-zoom" href="{{ asset('images/webimgs/pastors/bishop_mangeni.jpg') }}" rel="prettyPhoto[gallery]">								
+									<img src="{{ asset('images/webimgs/pastors/bishop_mangeni.jpg') }}" class="img-responsive" alt="CEC Gallery">
+										<div class="port-info">
+											<h5>Bishop Dr. Julius Mangeni</h5>
+											<p>Add Some Description</p>
+										</div>
+							</a>
+						</span>
+						</div>
+					</li>
+					<li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
+						<div>
+							<span class="image-block block2">
+							<a class="image-zoom" href="{{ asset('images/webimgs/pastors/bishop_mr_and_mrs_wamalwa.jpg') }}" rel="prettyPhoto[gallery]">							
+									<img src="{{ asset('images/webimgs/pastors/bishop_mr_and_mrs_wamalwa.jpg') }}" class="img-responsive" alt="CEC Gallery">
+										<div class="port-info">
+											<h5>Bishop Dr. Mr. and Mrs Joram Wamalwa</h5>
+											<p>Add Some Description</p>
+										</div>
+							</a>
+						</span>
+						</div>
+                    </li>
+                    <li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
+						<div>
+							<span class="image-block block2">
+							<a class="image-zoom" href="{{ asset('images/webimgs/pastors/bishop_ochieng.jpg') }}" rel="prettyPhoto[gallery]">							
+									<img src="{{ asset('images/webimgs/pastors/bishop_ochieng.jpg') }}" class="img-responsive" alt="CEC Gallery">
+										<div class="port-info">
+											<h5>Bishop Stanley Ochieng</h5>
+											<p>Add Some Description</p>
+										</div>
+							</a>
+						</span>
+						</div>
+                    </li>
+                    <li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
+						<div>
+							<span class="image-block block2">
+							<a class="image-zoom" href="{{ asset('images/webimgs/pastors/pastor_laban.jpg') }}" rel="prettyPhoto[gallery]">							
+									<img src="{{ asset('images/webimgs/pastors/pastor_laban.jpg') }}" class="img-responsive" alt="CEC Gallery">
+										<div class="port-info">
+											<h5>Pastor Laban</h5>
+											<p>Add Some Description</p>
+										</div>
+							</a>
+						</span>
+						</div>
+                    </li>
+                    <li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
+						<div>
+							<span class="image-block block2">
+							<a class="image-zoom" href="{{ asset('images/webimgs/pastors/pastor_ogallo.jpg') }}" rel="prettyPhoto[gallery]">							
+									<img src="{{ asset('images/webimgs/pastors/pastor_ogallo.jpg') }}" class="img-responsive" alt="CEC Gallery">
+										<div class="port-info">
+											<h5>Pastro Ogallo</h5>
+											<p>Add Some Description</p>
+										</div>
+							</a>
+						</span>
+						</div>
+                    </li>
+                    <li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
+						<div>
+							<span class="image-block block2">
+							<a class="image-zoom" href="{{ asset('images/webimgs/pastors/pastor_omusula.jpg') }}" rel="prettyPhoto[gallery]">							
+									<img src="{{ asset('images/webimgs/pastors/pastor_omusula.jpg') }}" class="img-responsive" alt="CEC Gallery">
+										<div class="port-info">
+											<h5>Pastor Omusula</h5>
+											<p>Add Some Description</p>
+										</div>
+							</a>
+						</span>
+						</div>
+                    </li>
+                    <li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
+						<div>
+							<span class="image-block block2">
+							<a class="image-zoom" href="{{ asset('images/webimgs/pastors/pastor_walwanda.jpg') }}" rel="prettyPhoto[gallery]">							
+									<img src="{{ asset('images/webimgs/pastors/pastor_walwanda.jpg') }}" class="img-responsive" alt="CEC Gallery">
+										<div class="port-info">
+											<h5>Pastor Walwanda</h5>
 											<p>Add Some Description</p>
 										</div>
 							</a>
@@ -52,24 +156,51 @@
 					<li class="portfolio-item2" data-id="id-1" data-type="cat-item-2">
 						<div>
 							<span class="image-block block2">
-							<a class="image-zoom" href="images/g2.jpg" rel="prettyPhoto[gallery]">
+							<a class="image-zoom" href="{{asset('images/webimgs/events/saints_gathering.jpg')}}" rel="prettyPhoto[gallery]">
 								
-									<img src="images/g2.jpg" class="img-responsive" alt="Conceit">
+									<img src="{{asset('images/webimgs/events/saints_gathering.jpg')}}" class="img-responsive" alt="CEC Gallery">
 								      <div class="port-info">
-											<h5>View Project</h5>
+											<h5>Saints gathering</h5>
 											<p>Add Some Description</p>
 										</div>
 							</a>
 						</span>
 						</div>
-					</li>
-					<li class="portfolio-item2" data-id="id-2" data-type="cat-item-1">
+                    </li>
+                    <li class="portfolio-item2" data-id="id-5" data-type="cat-item-2">
 						<div>
 							<span class="image-block block2">
-							<a class="image-zoom" href="images/g3.jpg" rel="prettyPhoto[gallery]">
-							<img src="images/g3.jpg" class="img-responsive" alt="Conceit">
-								<div class="port-info">
-											<h5>View Project</h5>
+							<a class="image-zoom" href="{{asset('images/webimgs/events/service1.jpg')}}" rel="prettyPhoto[gallery]">
+								
+									<img src="{{asset('images/webimgs/events/service1.jpg')}}" class="img-responsive" alt="CEC Gallery">
+									<div class="port-info">
+											<h5>Church service</h5>
+											<p>Add Some Description</p>
+										</div>
+							</a>
+						</span>
+						</div>
+                    </li>
+				<li class="portfolio-item2" data-id="id-4" data-type="cat-item-3">
+						<div>
+							<span class="image-block block2">
+							<a class="image-zoom" href="images/g5.jpg" rel="prettyPhoto[gallery]">								
+									<img src="images/g5.jpg" class="img-responsive" alt="CEC Gallery">
+									<div class="port-info">
+											<h5>Gallery</h5>
+											<p>Add Some Description</p>
+										</div>
+							</a>
+						</span>
+						</div>
+                    </li>
+                    <li class="portfolio-item2" data-id="id-0" data-type="cat-item-4">
+						<div>
+							<span class="image-block block2 img-hover">
+							<a class="image-zoom" href="images/g1.jpg" rel="prettyPhoto[gallery]">							
+									<img src="images/g1.jpg" class="img-responsive" alt="CEC Gallery">
+									<div class="port-info">
+											<h5>Gallery</h5>
 											<p>Add Some Description</p>
 										</div>
 							</a>
@@ -80,75 +211,9 @@
 						<div>
 							<span class="image-block block2">
 							<a class="image-zoom" href="images/g4.jpg" rel="prettyPhoto[gallery]">
-									<img src="images/g4.jpg" class="img-responsive" alt="Conceit">
+									<img src="images/g4.jpg" class="img-responsive" alt="CEC Gallery">
 									<div class="port-info">
-											<h5>View Project</h5>
-											<p>Add Some Description</p>
-										</div>
-							</a>
-						</span>
-						</div>
-					</li>
-				<li class="portfolio-item2" data-id="id-4" data-type="cat-item-3">
-						<div>
-							<span class="image-block block2">
-							<a class="image-zoom" href="images/g5.jpg" rel="prettyPhoto[gallery]">								
-									<img src="images/g5.jpg" class="img-responsive" alt="Conceit">
-									<div class="port-info">
-											<h5>View Project</h5>
-											<p>Add Some Description</p>
-										</div>
-							</a>
-						</span>
-						</div>
-					</li>
-					<li class="portfolio-item2" data-id="id-5" data-type="cat-item-2">
-						<div>
-							<span class="image-block block2">
-							<a class="image-zoom" href="images/g6.jpg" rel="prettyPhoto[gallery]">
-								
-									<img src="images/g6.jpg" class="img-responsive" alt="Conceit">
-									<div class="port-info">
-											<h5>View Project</h5>
-											<p>Add Some Description</p>
-										</div>
-							</a>
-						</span>
-						</div>
-					</li>
-					<li class="portfolio-item2" data-id="id-6" data-type="cat-item-1">
-						<div>
-							<span class="image-block block2">
-							<a class="image-zoom" href="images/g7.jpg" rel="prettyPhoto[gallery]">							
-									<img src="images/g7.jpg" class="img-responsive" alt="Conceit">
-								      <div class="port-info">
-											<h5>View Project</h5>
-											<p>Add Some Description</p>
-										</div>
-							</a>
-						</span>
-						</div>
-					</li>
-					<li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
-						<div>
-							<span class="image-block block2">
-							<a class="image-zoom" href="images/g8.jpg" rel="prettyPhoto[gallery]">								
-									<img src="images/g8.jpg" class="img-responsive" alt="Conceit">
-										<div class="port-info">
-											<h5>View Project</h5>
-											<p>Add Some Description</p>
-										</div>
-							</a>
-						</span>
-						</div>
-					</li>
-					<li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
-						<div>
-							<span class="image-block block2">
-							<a class="image-zoom" href="images/g1.jpg" rel="prettyPhoto[gallery]">							
-									<img src="images/g1.jpg" class="img-responsive" alt="Conceit">
-										<div class="port-info">
-											<h5>View Project</h5>
+											<h5>Gallery</h5>
 											<p>Add Some Description</p>
 										</div>
 							</a>

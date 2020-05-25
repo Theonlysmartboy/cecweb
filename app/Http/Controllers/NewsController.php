@@ -13,7 +13,8 @@ class NewsController extends Controller
      */
     public function index()
     {
-        //
+        $title ="abababababababab";
+        return view('posts.index')->with(compact('title'));
     }
 
     /**
@@ -45,7 +46,8 @@ class NewsController extends Controller
      */
     public function show($id)
     {
-        //
+        $title ="abababababababab";
+        return view('posts.show')->with(compact('title'));
     }
 
     /**

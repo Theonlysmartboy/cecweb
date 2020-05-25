@@ -19,7 +19,7 @@
 				<div id="navbar" class="navbar-collapse collapse">
 					<div class="nav_right_top">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="{{ route('index') }}">Home</a></li>
+							<li class=""><a href="{{ route('index') }}">Home</a></li>
 							<li><a href="{{ route('about_us') }}">About</a></li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ministries <span class="caret"></span></a>
@@ -36,6 +36,7 @@
 								</ul>
 							</li>
 							<li><a href="{{ url('/gallery') }}">Gallery</a></li>
+							<li><a href="{{ url('/news') }}">Posts</a></li>
 							<li><a href="{{ route('contact_us') }}">Contact Us</a></li>
 						</ul>
 					</div>

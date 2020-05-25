@@ -51,24 +51,24 @@
             <div class="col-md-4 contact_grids_info">
                 <div class="contact_grid">
                     <div class="contact_grid_right">
-                        <h4> OFFICE 1</h4>
-                        <p>435 City hall,</p>
-                        <p>NewYork City SD092.</p>
+                        <h4>HEAD OFFICE </h4>
+                        <p>P.O.  BOX 1188 - 50100,</p>
+                        <p> KAKAMEGA</p>
                     </div>
                 </div>
                 <div class="contact_grid">
                     <div class="contact_grid_right">
-                        <h4> OFFICE 2</h4>
-                        <p>8088 Jasmine hall,</p>
-                        <p>NewYork City SD092.</p>
+                        <h4> OFFICE 1</h4>
+                        <p>--</p>
+                        <p>--</p>
                     </div>
                 </div>
                 <div class="contact_grid" data-aos="flip-up">
 
                     <div class="contact_grid_right">
-                        <h4>OFFICE 3</h4>
-                        <p>436 Honey hall,</p>
-                        <p>NewYork City SD092.</p>
+                        <h4>OFFICE 2</h4>
+                        <p>--</p>
+                        <p>--</p>
                     </div>
                     <div class="clearfix"> </div>
                 </div>

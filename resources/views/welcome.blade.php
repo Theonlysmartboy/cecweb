@@ -178,19 +178,6 @@
   </div>
 </div>
 <!--//what-->
-<!--/banner_bottom-->
-<div class="banner_bottom">
-  <div class="banner_bottom_in">
-    <h3 class="tittle-w3ls we">We provide high quality and cost effective offshore web development services.</h3>
-
-    <p>Lorem ipsum dolor sit amet, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-
-    <img src="{{ asset('images/webimgs/banner_mid.jpg')}}" class="img-responsive" alt="">
-  </div>
-</div>
-<!--//banner_bottom-->
 <!--/projects-->
 <div class="banner_bottom proj">
   <div class="wrap_view">
@@ -214,12 +201,12 @@
         <li class="portfolio-item2" data-id="id-1" data-type="cat-item-2">
           <div>
             <span class="image-block">
-            <a class="image-zoom" href="{{ asset('images/webimgs/g2.jpg')}}" rel="prettyPhoto[gallery]">
+            <a class="image-zoom" href="{{ url('/news', [1]) }}">
               
                 <img src="{{ asset('images/webimgs/g2.jpg')}}" class="img-responsive" alt="Conceit">
               <div class="port-info">
-                    <h5>View Project</h5>
-                    <p>Add Some Description</p>
+                    <h5>View</h5>
+                    <p>Description</p>
                   </div>
             </a>
           </span>
@@ -228,12 +215,11 @@
         <li class="portfolio-item2" data-id="id-2" data-type="cat-item-1">
           <div>
             <span class="image-block">
-            <a class="image-zoom" href="{{ asset('images/webimgs/g3.jpg')}}" rel="prettyPhoto[gallery]">
-            
-                <img src="{{ asset('images/webimgs/g3.jpg')}}" class="img-responsive" alt="Conceit">
+            <a class="image-zoom" href="{{ url('/news', [1]) }}">
+            <img src="{{ asset('images/webimgs/g3.jpg')}}" class="img-responsive" alt="Conceit">
               <div class="port-info">
-                    <h5>View Project</h5>
-                    <p>Add Some Description</p>
+                    <h5>View</h5>
+                    <p>Description</p>
                   </div>
             </a>
           </span>
@@ -242,12 +228,12 @@
         <li class="portfolio-item2" data-id="id-4" data-type="cat-item-3">
           <div>
             <span class="image-block">
-            <a class="image-zoom" href="{{ asset('images/webimgs/g5.jpg')}}" rel="prettyPhoto[gallery]">
+            <a class="image-zoom" href="{{ url('/news', [1]) }}">
               
                 <img src="{{ asset('images/webimgs/g5.jpg')}}" class="img-responsive" alt="Conceit">
                 <div class="port-info">
-                    <h5>View Project</h5>
-                    <p>Add Some Description</p>
+                    <h5>View</h5>
+                    <p>Description</p>
                   </div>
             </a>
           </span>
@@ -256,12 +242,12 @@
         <li class="portfolio-item2" data-id="id-5" data-type="cat-item-2">
           <div>
             <span class="image-block">
-            <a class="image-zoom" href="{{ asset('images/webimgs/g6.jpg')}}" rel="prettyPhoto[gallery]">
+            <a class="image-zoom" href="{{ url('/news', [1]) }}">
               
                 <img src="{{ asset('images/webimgs/g6.jpg')}}" class="img-responsive" alt="Conceit">
                 <div class="port-info">
-                    <h5>View Project</h5>
-                    <p>Add Some Description</p>
+                    <h5>View</h5>
+                    <p>Description</p>
                   </div>
             </a>
           </span>
@@ -270,12 +256,12 @@
         <li class="portfolio-item2" data-id="id-6" data-type="cat-item-1">
           <div>
             <span class="image-block">
-            <a class="image-zoom" href="{{ asset('images/webimgs/g7.jpg')}}" rel="prettyPhoto[gallery]">
+            <a class="image-zoom" href="{{ url('/news', [1]) }}">
             
                 <img src="{{ asset('images/webimgs/g7.jpg')}}" class="img-responsive" alt="Conceit">
                     <div class="port-info">
-                    <h5>View Project</h5>
-                    <p>Add Some Description</p>
+                    <h5>View</h5>
+                    <p>Description</p>
                   </div>
             </a>
           </span>
@@ -284,12 +270,12 @@
         <li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
           <div>
             <span class="image-block">
-            <a class="image-zoom" href="{{ asset('images/webimgs/g8.jpg')}}" rel="prettyPhoto[gallery]">
+            <a class="image-zoom" href="{{ url('/news', [1]) }}">
               
                 <img src="{{ asset('images/webimgs/g8.jpg')}}" class="img-responsive" alt="Conceit">
                   <div class="port-info">
-                    <h5>View Project</h5>
-                    <p>Add Some Description</p>
+                    <h5>View</h5>
+                    <p>Description</p>
                   </div>
             
             </a>
@@ -303,37 +289,6 @@
   </div>
 </div>
 <!--//projects-->
-<!--/bottom-->
-<div class="banner_bottom">
-  <div class="container">
-    <h3 class="tittle-w3ls">Let’s Change How We Manage Business
-    </h3>
-    <div class="inner_sec_info_wthree_agile">
-      <div class="help_full">
-
-        <div class="col-md-6 banner_bottom_left">
-          <h4>Entrepreneurs Get Their Act Together </h4>
-          <p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
-            pulvinar neque pharetra ac. Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla
-            viverra pharetra sem, eget pulvinar neque pharetra ac.
-
-          </p>
-          <div class="ab_button">
-            <a class="btn btn-primary btn-lg hvr-underline-from-left" href="single.html" role="button">Read More </a>
-          </div>
-
-
-        </div>
-
-        <div class="col-md-6 banner_bottom_grid help">
-          <img src="{{ asset('images/webimgs/banner_mid.jpg')}}" alt=" " class="img-responsive">
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--//bottom-->
 <!--/testimonials-->
 <div class="tesimonials container">
   <h3 class="tittle-w3ls cen">Testimonials</h3>
