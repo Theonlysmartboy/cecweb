@@ -20,7 +20,7 @@
 								<a class="act" href="single.html">Read More</a>
 							</div>
 							<div class="bnr-button">
-								<a href="portfolio.html" class="two scroll ">Join Us</a>
+								<a href="{{ route('members.create') }}" class="two scroll ">Join Us</a>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -39,7 +39,7 @@
 								<a class="act" href="single.html">Read More</a>
 							</div>
 							<div class="bnr-button">
-								<a href="portfolio.html" class="two scroll ">Join Us</a>
+								<a href="{{ route('members.create') }}" class="two scroll ">Join Us</a>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -56,7 +56,7 @@
 								<a class="act" href="single.html">Read More</a>
 							</div>
 							<div class="bnr-button">
-								<a href="portfolio.html" class="two scroll ">Join Us</a>
+								<a href="{{ route('members.create') }}" class="two scroll ">Join Us</a>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -75,7 +75,7 @@
 								<a class="act" href="single.html">Read More</a>
 							</div>
 							<div class="bnr-button">
-								<a href="#portfolio" class="two scroll ">Join Us</a>
+								<a href="{{ route('members.create') }}" class="two scroll ">Join Us</a>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -194,45 +194,23 @@
 <!--/projects-->
 <div class="banner_bottom proj">
   <div class="wrap_view">
-    <h3 class="tittle-w3ls">Projects</h3>
+    <h3 class="tittle-w3ls">Notice Board</h3>
     <div class="inner_sec">
       <ul class="portfolio-categ filter">
         <li class="port-filter all active">
           <a href="#">All</a>
         </li>
         <li class="cat-item-1">
-          <a href="#" title="Category 1">Category 1</a>
+          <a href="#" title="Category 1">Anouncements</a>
         </li>
         <li class="cat-item-2">
-          <a href="#" title="Category 2">Category 2</a>
+          <a href="#" title="Category 2">News</a>
         </li>
         <li class="cat-item-3">
-          <a href="#" title="Category 3">Category 3</a>
-        </li>
-        <li class="cat-item-4">
-          <a href="#" title="Category 4">Category 4</a>
+          <a href="#" title="Category 3">Posts</a>
         </li>
       </ul>
-
-
       <ul class="portfolio-area">
-
-        <li class="portfolio-item2" data-id="id-0" data-type="cat-item-4">
-          <div>
-            <span class="image-block img-hover">
-            <a class="image-zoom" href="{{ asset('images/webimgs/g1.jpg')}}" rel="prettyPhoto[gallery]">
-            
-                <img src="{{ asset('images/webimgs/g1.jpg')}}" class="img-responsive" alt="Conceit">
-                <div class="port-info">
-                    <h5>View Project</h5>
-                    <p>Add Some Description</p>
-                  </div>
-            </a>
-          </span>
-          </div>
-        </li>
-
-
         <li class="portfolio-item2" data-id="id-1" data-type="cat-item-2">
           <div>
             <span class="image-block">
@@ -247,8 +225,6 @@
           </span>
           </div>
         </li>
-
-
         <li class="portfolio-item2" data-id="id-2" data-type="cat-item-1">
           <div>
             <span class="image-block">
@@ -263,24 +239,6 @@
           </span>
           </div>
         </li>
-
-
-        <li class="portfolio-item2" data-id="id-3" data-type="cat-item-4">
-          <div>
-            <span class="image-block">
-            <a class="image-zoom" href="{{ asset('images/webimgs/g4.jpg')}}" rel="prettyPhoto[gallery]">
-              
-                <img src="{{ asset('images/webimgs/g4.jpg')}}" class="img-responsive" alt="Conceit">
-                <div class="port-info">
-                    <h5>View Project</h5>
-                    <p>Add Some Description</p>
-                  </div>
-            </a>
-          </span>
-          </div>
-        </li>
-
-
         <li class="portfolio-item2" data-id="id-4" data-type="cat-item-3">
           <div>
             <span class="image-block">
@@ -295,8 +253,6 @@
           </span>
           </div>
         </li>
-
-
         <li class="portfolio-item2" data-id="id-5" data-type="cat-item-2">
           <div>
             <span class="image-block">
@@ -311,8 +267,6 @@
           </span>
           </div>
         </li>
-
-
         <li class="portfolio-item2" data-id="id-6" data-type="cat-item-1">
           <div>
             <span class="image-block">
@@ -327,8 +281,6 @@
           </span>
           </div>
         </li>
-
-
         <li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
           <div>
             <span class="image-block">
@@ -344,92 +296,13 @@
           </span>
           </div>
         </li>
-
         <div class="clearfix"></div>
       </ul>
       <!--end portfolio-area -->
-
     </div>
-
   </div>
 </div>
-
 <!--//projects-->
-<!--/blog-->
-<div class="blog_sec">
-  <h3 class="tittle-w3ls">Latest Blogs</h3>
-  <div class="col-md-6 banner-btm-left">
-    <div class="banner-btm-top">
-      <div class="banner-btm-inner a1">
-        <div class="blog_date">
-
-          <h4>Jan.05.2018</h4>
-
-        </div>
-        <h6><a href="single.html">Strategic Planning</a></h6>
-        <p class="paragraph">Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
-        <div class="clearfix"></div>
-        <a href="single.html" class="blog-btn">Know More</a>
-      </div>
-      <div class="banner-btm-inner a2">
-
-      </div>
-    </div>
-    <div class="banner-btm-bottom">
-      <div class="banner-btm-inner a3">
-
-      </div>
-      <div class="banner-btm-inner a4">
-        <div class="blog_date">
-
-          <h4>Jan.08.2018</h4>
-
-        </div>
-        <h6><a href="single.html">Strategic Planning</a></h6>
-        <p class="paragraph">Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
-        <div class="clearfix"></div>
-        <a href="single.html" class="blog-btn">Know More</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6 banner-btm-left">
-    <div class="banner-btm-top">
-      <div class="banner-btm-inner a1">
-        <div class="blog_date">
-
-          <h4>Jan.25.2018</h4>
-
-        </div>
-        <h6><a href="single.html">Strategic Planning</a></h6>
-        <p class="paragraph">Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
-        <div class="clearfix"></div>
-        <a href="single.html" class="blog-btn">Know More</a>
-      </div>
-      <div class="banner-btm-inner a5">
-
-      </div>
-    </div>
-    <div class="banner-btm-bottom">
-      <div class="banner-btm-inner a6">
-
-      </div>
-      <div class="banner-btm-inner a4">
-        <div class="blog_date">
-
-          <h4>Jan.05.2018</h4>
-
-        </div>
-        <h6><a href="single.html">Strategic Planning</a></h6>
-        <p class="paragraph">Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
-        <div class="clearfix"></div>
-        <a href="single.html" class="blog-btn">Know More</a>
-      </div>
-    </div>
-  </div>
-  <div class="clearfix"></div>
-</div>
-
-<!--//blog-->
 <!--/bottom-->
 <div class="banner_bottom">
   <div class="container">
@@ -462,76 +335,67 @@
 </div>
 <!--//bottom-->
 <!--/testimonials-->
-<div class="tesimonials">
-  <div class="container">
-    <h3 class="tittle-w3ls cen">Testimonials</h3>
-    <div class="inner_sec">
+<div class="tesimonials container">
+  <h3 class="tittle-w3ls cen">Testimonials</h3>
+  <div class="inner_sec">
       <div class="test_grid_sec">
-        <div class="col-md-offset-2 col-md-8">
-          <div class="carousel slide two" data-ride="carousel" id="quote-carousel">
-            <!-- Bottom Carousel Indicators -->
-            <ol class="carousel-indicators two">
-              <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#quote-carousel" data-slide-to="1"></li>
-              <li data-target="#quote-carousel" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Carousel Slides / Quotes -->
-            <div class="carousel-inner">
-
-              <!-- Quote 1 -->
-              <div class="item active">
-                <blockquote>
-                  <div class="test_grid">
-                    <div class="col-sm-3 text-center test_img">
-                      <img src="{{ asset('images/webimgs/t1.jpg')}}" class="img-responsive" alt="">
-
-                    </div>
-                    <div class="col-sm-9 test_img_info">
-                      <p>Maecenas quis neque libero. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                        auctor nec lacus ut tempor. Mauris.</p>
-                      <h6>Sara Lisbon</h6>
-                    </div>
+          <div class="col-md-offset-2 col-md-8">
+              <div class="carousel slide two" data-ride="carousel" id="quote-carousel">
+                  <!-- Bottom Carousel Indicators -->
+                  <ol class="carousel-indicators two">
+                      <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#quote-carousel" data-slide-to="1"></li>
+                      <li data-target="#quote-carousel" data-slide-to="2"></li>
+                  </ol>
+                  <!-- Carousel Slides / Quotes -->
+                  <div class="carousel-inner">
+                      <!-- Quote 1 -->
+                      <div class="item active">
+                          <blockquote>
+                              <div class="test_grid">
+                                  <div class="col-sm-3 text-center test_img">
+                                      <img src="{{ asset('images/webimgs/')}}" class="img-responsive" alt="">
+                                  </div>
+                                  <div class="col-sm-9 test_img_info">
+                                      <p></p>
+                                      <h6></h6>
+                                  </div>
+                              </div>
+                          </blockquote>
+                      </div>
+                      <!-- Quote 2 -->
+                      <div class="item">
+                          <blockquote>
+                              <div class="test_grid">
+                                  <div class="col-sm-3 text-center test_img">
+                                      <img src="{{ asset('images/webimgs/')}}" class="img-responsive" alt="">
+                                  </div>
+                                  <div class="col-sm-9 test_img_info">
+                                      <p></p>
+                                      <h6></h6>
+                                  </div>
+                              </div>
+                          </blockquote>
+                      </div>
+                      <!-- Quote 3 -->
+                      <div class="item">
+                          <blockquote>
+                              <div class="test_grid">
+                                  <div class="col-sm-3 text-center test_img">
+                                      <img src="{{ asset('images/webimgs/')}}" class="img-responsive" alt="">
+                                  </div>
+                                  <div class="col-sm-9 test_img_info">
+                                      <p></p>
+                                      <h6></h6>
+                                  </div>
+                              </div>
+                          </blockquote>
+                      </div>
                   </div>
-                </blockquote>
               </div>
-              <!-- Quote 2 -->
-              <div class="item">
-                <blockquote>
-                  <div class="test_grid">
-                    <div class="col-sm-3 text-center test_img">
-                      <img src="{{ asset('images/webimgs/t2.jpg')}}" class="img-responsive" alt="">
-                    </div>
-                    <div class="col-sm-9 test_img_info">
-                      <p>Lorem ipsum dolor sit amet. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                        auctor nec lacus ut tempor. Mauris.</p>
-                      <h6>Jane Wearne</h6>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-              <!-- Quote 3 -->
-              <div class="item">
-                <blockquote>
-                  <div class="test_grid">
-                    <div class="col-sm-3 text-center test_img">
-                      <img src="{{ asset('images/webimgs/t3.jpg')}}" class="img-responsive" alt="">
-                    </div>
-                    <div class="col-sm-9 test_img_info">
-                      <p>Maecenas quis neque libero. Class aptent taciti.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                        auctor nec lacus ut tempor. Mauris.</p>
-                      <h6>Alice Williams</h6>
-                    </div>
-                  </div>
-                </blockquote>
-              </div>
-            </div>
-
           </div>
-        </div>
       </div>
-    </div>
-  </div>
+</div>
 </div>
 <!--//testimonials-->
 

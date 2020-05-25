@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class GalleryController extends Controller
+class BranchContoller extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +13,7 @@ class GalleryController extends Controller
      */
     public function index()
     {
-        $title = "CEC || Gallery";
-        return view('pages.gallery')->with(compact('title'));
+        //
     }
 
     /**

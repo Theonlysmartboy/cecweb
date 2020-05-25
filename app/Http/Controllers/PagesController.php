@@ -19,7 +19,6 @@ class PagesController extends Controller
       if($request->isMethod('post')){
         $data = $request->all();
         dd($data);
-
       }
       //otherwise show the contact form
       return view('pages.contact')->with(compact('title'));

@@ -234,8 +234,8 @@ span.desc {
 }
 
 .carousel-caption a:hover {
-    background: #ee4f4f;
-    border: 1px solid #ee4f4f;
+    background: #ff9d2f;
+    border: 1px solid #ff9d2f;
 }
 
 .codes {
@@ -244,7 +244,7 @@ span.desc {
 }
 
 .codes.agileitsbg2 {
-    background: #E74C3C;
+    background: #ff9d2f;
     background-image: -webkit-linear-gradient(#ff9d2f, #ff6126);
     background-image: -moz-linear-gradient(#ff9d2f, #ff6126);
     background-image: -ms-linear-gradient(#ff9d2f, #ff6126);
@@ -771,8 +771,8 @@ ol.carousel-indicators.two {
     width: 12px;
     height: 12px;
     margin: 0 2px;
-    background: #ee4f4f;
-    border: 1px solid #ee4f4f;
+    background: #ff9d2f;
+    border: 1px solid #ff9d2f;
 }
 
 #quote-carousel img {
