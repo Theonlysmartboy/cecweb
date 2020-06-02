@@ -23,3 +23,7 @@ Route::resource('/categories', 'CategoryController');
 Route::resource('/gallery', 'GalleryController');
 Route::resource('/news','NewsController');
 Route::resource('/posts','PostsController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
