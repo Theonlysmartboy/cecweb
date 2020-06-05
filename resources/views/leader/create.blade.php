@@ -7,7 +7,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Churches</h1>
+                    <h1>Leaders</h1>
                     @if(Session::has('flash_message_error'))
                     <div class="alert alert-danger alert-block" id="autoClose" >
                         <button type="button" class="close" data-dismiss="alert">×</button>	
@@ -24,7 +24,7 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{route('admin.dashboard')}}">Home</a></li>
-                        <li class="breadcrumb-item"> <a href="{{route('branches.index')}}">Churches</a></li>
+                        <li class="breadcrumb-item"> <a href="{{route('branches.index')}}">Leaders</a></li>
                         <li class="breadcrumb-item active">Create</li>
                     </ol>
                 </div>
@@ -38,7 +38,7 @@
             <!-- general form elements disabled -->
             <div class="card card-warning">
                 <div class="card-header">
-                    <h3 class="card-title">Create Churches form</h3>
+                    <h3 class="card-title">Create Leaders form</h3>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">

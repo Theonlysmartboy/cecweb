@@ -50,14 +50,14 @@
                         <td class="text-center">{{ $leader->id }}</td>
                         <td class="text-center">{{$leader->title}}</td>
                         <td class="text-center">{{$leader->name}}</td>
-                        <td class="text-center"><img src="{{ asset('/images/webimgs/pastors/'.$leader->avatar) }}"/></td>
-                        <td class="text-center">{{ $leader->bio}}</td>
+                        <td class="text-center"><img src="{{ asset('/images/webimgs/pastors/uploads/'.$leader->avatar) }}"/></td>
+                        <td class="text-center">{!! $leader->bio!!}</td>
                         <td class="text-center">{{ $leader->email }}</td>
                         <td class="text-center">{{ $leader->tel }}</td>
                        <td class="text-center">{{ $leader->address }}</td>
                        <td class="text-center">{{ $leader->smedia }}</td>
-                        <td><a href="{{url('admin/user/edit/'.$leader->id)}}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
-                            <a rel="{{$leader->id}}" rel1="delete" href="javascript:" class="btn btn-danger btn-sm deleteUser">Delete <i class="icon icon-trash"></i></a></td>
+                        <td><a href="{{ route('leaders.edit', [$leader->id]) }}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
+                            <a rel="{{$leader->id}}" rel1="destroy" href="javascript:" class="btn btn-danger btn-sm deleteLeader">Delete <i class="icon icon-trash"></i></a></td>
                     </tr>
                     @endforeach
                   </tbody>

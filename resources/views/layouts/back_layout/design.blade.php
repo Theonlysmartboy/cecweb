@@ -23,6 +23,8 @@
   <link rel="stylesheet" href="{{ asset('back/plugins/fontawesome-free/css/all.min.css')}}">
    <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="{{ asset('back/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css')}}">
   <!-- DataTables -->
   <link rel="stylesheet" href="{{ asset('back/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css')}}">
   <link rel="stylesheet" href="{{ asset('back/plugins/datatables-responsive/css/responsive.bootstrap4.min.css')}}">
@@ -49,6 +51,8 @@
 <script src="{{ asset('back/plugins/jquery/jquery.min.js')}}"></script>
 <!-- Bootstrap -->
 <script src="{{ asset('back/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<!-- SweetAlert2 -->
+<script src="{{ asset('back/plugins/sweetalert2/sweetalert2.min.js')}}"></script>
 <!-- DataTables -->
 <script src="{{ asset('back/plugins/datatables/jquery.dataTables.min.js')}}"></script>
 <script src="{{ asset('back/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js')}}"></script>

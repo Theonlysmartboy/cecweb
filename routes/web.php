@@ -33,4 +33,5 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('/','Auth\AdminLoginController@create')->name('admin.login.show');
     Route::post('/','Auth\AdminLoginController@login')->name('admin.login');
     Route::get('/home','AdminController@index')->name('admin.dashboard');
+    Route::get('/leaders/destroy/{id}','leadersController@destroy' );
 });
