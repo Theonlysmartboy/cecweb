@@ -12,7 +12,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">Home</a></li>
-              <li class="breadcrumb-item active">Churches</li>
+              <li class="breadcrumb-item active">Leaders</li>
             </ol>
           </div>
         </div>
@@ -25,7 +25,7 @@
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <a class="card-title btn btn-success text-center"  href="{{ route('branches.create') }}">Add</a>
+                <a class="card-title btn btn-success text-center" href="{{ route('leaders.create') }}">Add</a>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -33,36 +33,45 @@
                   <thead>
                   <tr>
                     <th>Id</th>
+                    <th>Title</th>
                     <th>Name</th>
-                    <th>Head Pastor</th>
-                    <th>Description</th>
+                    <th>Image</th>
+                    <th>Biography</th>
                     <th>Email</th>
+                    <th>Telephone</th>
                     <th>Address</th>
+                    <th>Soccial Media Links</th>
                     <th>Action</th>
                   </tr>
                   </thead>
                   <tbody>
-                    @foreach($churches as $branch)
+                    @foreach($leaders as $leader)
                     <tr>
-                        <td class="text-center">{{ $branch->id }}</td>
-                        <td class="text-center">{{$branch->name}}</td>
-                        <td class="text-center">{{ $branch->leader }}</td>
-                        <td class="text-center">{{ $branch->description }}</td>
-                        <td class="text-center">{{ $branch->email }}</td>
-                       <td class="text-center">{{ $branch->address }}</td>
-                        <td><a href="{{url('admin/user/edit/'.$branch->id)}}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
-                            <a rel="{{$branch->id}}" rel1="delete" href="javascript:" class="btn btn-danger btn-sm deleteUser">Delete <i class="icon icon-trash"></i></a></td>
+                        <td class="text-center">{{ $leader->id }}</td>
+                        <td class="text-center">{{$leader->title}}</td>
+                        <td class="text-center">{{$leader->name}}</td>
+                        <td class="text-center"><img src="{{ asset('/images/webimgs/pastors/'.$leader->avatar) }}"/></td>
+                        <td class="text-center">{{ $leader->bio}}</td>
+                        <td class="text-center">{{ $leader->email }}</td>
+                        <td class="text-center">{{ $leader->tel }}</td>
+                       <td class="text-center">{{ $leader->address }}</td>
+                       <td class="text-center">{{ $leader->smedia }}</td>
+                        <td><a href="{{url('admin/user/edit/'.$leader->id)}}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
+                            <a rel="{{$leader->id}}" rel1="delete" href="javascript:" class="btn btn-danger btn-sm deleteUser">Delete <i class="icon icon-trash"></i></a></td>
                     </tr>
                     @endforeach
                   </tbody>
                   <tfoot>
                   <tr>
                     <th>Id</th>
+                    <th>Title</th>
                     <th>Name</th>
-                    <th>Head Pastor</th>
-                    <th>Description</th>
+                    <th>Image</th>
+                    <th>Biography</th>
                     <th>Email</th>
+                    <th>Telephone</th>
                     <th>Address</th>
+                    <th>Soccial Media Links</th>
                     <th>Action</th>
                   </tr>
                   </tfoot>

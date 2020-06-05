@@ -3,24 +3,33 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Leader;
+use App\Ministry;
+use App\Branch;
 
 class PagesController extends Controller
 {
     public function index(){
       $title = "CEC || Home";
-      return view('welcome')->with(compact('title'));
+      $ministries = Ministry::get();
+      $branches = Branch::get();
+      return view('welcome')->with(compact('title','branches','ministries'));
     }
     public function about(){
       $title ="CEC || About Us";
-      return view('pages.about')->with(compact('title'));
+      $ministries = Ministry::get();
+      $branches = Branch::get();
+      return view('pages.about')->with(compact('title','branches','ministries'));
     }
     public function contact(Request $request){
       $title ="CEC || Contact Us";
-      if($request->isMethod('post')){
+      $ministries = Ministry::get();
+      $branches = Branch::get();
+      if($request->isMethod('post','branches','ministries')){
         $data = $request->all();
         dd($data);
       }
       //otherwise show the contact form
-      return view('pages.contact')->with(compact('title'));
+      return view('pages.contact')->with(compact('title','branches','ministries'));
     }
 }

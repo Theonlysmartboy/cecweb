@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Session;
 use App\Branch;
 use App\Leader;
+use App\Ministry;
 
 class BranchController extends Controller
 {
@@ -68,7 +69,12 @@ class BranchController extends Controller
      */
     public function show($id)
     {
-        //
+        $branch_details = Branch::where(['id' => $id])->first();
+        $head_pastor = Leader::where(['id'=>$branch_details->leader])->first();
+        $title = $branch_details->name;
+        $ministries = Ministry::get();
+      $branches = Branch::get();
+        return view('branch.show')->with(Compact('title','branch_details','branches','ministries','head_pastor'));
     }
 
     /**
