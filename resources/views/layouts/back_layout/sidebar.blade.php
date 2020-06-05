@@ -92,6 +92,38 @@
               </li>
             </ul>
           </li>
+          <li class="nav-item">
+            <a href="{{ route('branches.index') }}" class="nav-link">
+              <i class="nav-icon far fa-image"></i>
+              <p>
+                Churches
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/gallery.html" class="nav-link">
+              <i class="nav-icon far fa-image"></i>
+              <p>
+                Ministries
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ route('leaders.index') }}" class="nav-link">
+              <i class="nav-icon far fa-user"></i>
+              <p>
+               Leaders
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="pages/gallery.html" class="nav-link">
+              <i class="nav-icon far fa-user"></i>
+              <p>
+               Staff
+              </p>
+            </a>
+          </li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-edit"></i>

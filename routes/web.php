@@ -19,10 +19,12 @@ Route::match(['get', 'post'], '/contact', 'PagesController@contact')->name('cont
 Route::post('/subscription', 'SubscriptionsController@subscribe')->name('subscribe');
 Route::resource('/members', 'MembersController');
 Route::resource('/staff', 'StaffController');
+Route::resource('/leaders', 'LeadersController');
 Route::resource('/categories', 'CategoryController');
 Route::resource('/gallery', 'GalleryController');
 Route::resource('/news','NewsController');
 Route::resource('/posts','PostsController');
+Route::resource('/branches', 'BranchController');
 
 Auth::routes();
 

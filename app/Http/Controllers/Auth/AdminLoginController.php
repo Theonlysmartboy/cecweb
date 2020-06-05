@@ -4,16 +4,19 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Session;
 use Auth;
 
 class AdminLoginController extends Controller
 {
-    public function __construct(){
-        $this->middleware('guest:admin');
-    }
     public function create(){
+        //check if admin has logged in
+        if (Session::has('adminSession')) {
+            return redirect()->intended(route('admin.dashboard'));
+        }
         $title = "CEC | Admin Login";
         return view('admin.login')->with(compact('title'));
+
     }
     public function login(Request $request){
         //validate form data
@@ -26,7 +29,8 @@ class AdminLoginController extends Controller
         $password = $request ->password;
         $remember = $request->remember;
         //attempt login
-       if( Auth::guard('admin')->attempt(['email' => $email, 'password' => $password, 'title' => '1'], $remember)){
+       if( Auth::attempt(['email' => $email, 'password' => $password, 'role' => '1'], $remember)){
+        Session::put('adminSession', $email);
             //if successfull redirect to the intended location
             return redirect()->intended(route('admin.dashboard'));
        }
