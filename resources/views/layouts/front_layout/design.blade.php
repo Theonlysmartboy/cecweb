@@ -8,6 +8,7 @@
         <title><?php echo $title; ?></title>
                <meta name="description" content="Christ’s Evangelistic Church,">
         <meta name="keywords" content="CEC, Church, Kakamega, Kenya, Africa, Evangeliestic, Evangelism">
+        <meta name="author" content="Otema Technologies">
         <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/icons/favicon/apple-touch-icon.png') }}">
         <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/icons/favicon/favicon-32x32.png')}}">
         <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('images/icons/favicon/android-chrome-192x192.png')}}">
