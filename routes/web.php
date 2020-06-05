@@ -27,3 +27,8 @@ Route::resource('/posts','PostsController');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::group(['prefix' => 'admin'], function () {
+    Route::get('/','Auth\AdminLoginController@create')->name('admin.login.show');
+    Route::post('/','Auth\AdminLoginController@login')->name('admin.login');
+    Route::get('/home','AdminController@index')->name('admin.dashboard');
+});

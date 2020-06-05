@@ -19,8 +19,8 @@
 				<div id="navbar" class="navbar-collapse collapse">
 					<div class="nav_right_top">
 						<ul class="nav navbar-nav">
-							<li class=""><a href="{{ route('index') }}">Home</a></li>
-							<li><a href="{{ route('about_us') }}">About</a></li>
+							<li class="@if(Route::current()->getName() == 'index') active @endif"><a href="{{ route('index') }}">Home</a></li>
+							<li class="@if(Route::current()->getName() == 'about_us') active @endif"><a href="{{ route('about_us') }}">About</a></li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ministries <span class="caret"></span></a>
 								<ul class="dropdown-menu">
@@ -29,15 +29,15 @@
 								</ul>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Branches <span class="caret"></span></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Churches <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a href="portfolio.html">Projects</a></li>
 									<li><a href="404.html">Services</a></li>
 								</ul>
 							</li>
-							<li><a href="{{ url('/gallery') }}">Gallery</a></li>
-							<li><a href="{{ url('/news') }}">Posts</a></li>
-							<li><a href="{{ route('contact_us') }}">Contact Us</a></li>
+							<li class="@if(Route::current()->getName() == 'gallery.index') active @endif"><a href="{{ route('gallery.index') }}">Gallery</a></li>
+							<li class="@if(Route::current()->getName() == 'news.index') active @endif"><a href="{{ route('news.index') }}">Posts</a></li>
+							<li class="@if(Route::current()->getName() == 'contact_us') active @endif"><a href="{{ route('contact_us') }}">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
