@@ -122,8 +122,8 @@ class BranchController extends Controller
     public function edit($id)
     {
         if(Session::has('adminSession')){
-            $title = "CEC | Churches | Edit";
             $branchDetails = Branch::where(['id' => $id])->first();
+            $title = "CEC | ".$branchDetails->name ." | Edit";
             //Leaders drop down start
             $leaders = Leader::get();
             $leaders_dropdown = "<option>Select</option>";

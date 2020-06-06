@@ -36,4 +36,5 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('/home','AdminController@index')->name('admin.dashboard');
     Route::get('/leaders/destroy/{id}','leadersController@destroy' );
     Route::get('/branches/destroy/{id}','BranchController@destroy' );
+    Route::get('/ministries/destroy/{id}','MinistriesController@destroy' );
 });
