@@ -34,10 +34,13 @@
                   <tr>
                     <th>Id</th>
                     <th>Name</th>
+                    <th>Email</th>
+                    <th>Telephone</th>
+                    <th>Address</th>
                     <th>Head Pastor</th>
                     <th>Description</th>
-                    <th>Email</th>
-                    <th>Address</th>
+                    <th>Mission</th>
+                    <th>Vision</th>
                     <th>Action</th>
                   </tr>
                   </thead>
@@ -46,12 +49,21 @@
                     <tr>
                         <td class="text-center">{{ $branch->id }}</td>
                         <td class="text-center">{{$branch->name}}</td>
-                        <td class="text-center">{{ $branch->leader }}</td>
-                        <td class="text-center">{{ $branch->description }}</td>
                         <td class="text-center">{{ $branch->email }}</td>
+                        <td class="text-center">{{$branch->tel}}</td>
                        <td class="text-center">{{ $branch->address }}</td>
-                        <td><a href="{{url('admin/user/edit/'.$branch->id)}}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
-                            <a rel="{{$branch->id}}" rel1="delete" href="javascript:" class="btn btn-danger btn-sm deleteUser">Delete <i class="icon icon-trash"></i></a></td>
+                       <td class="text-center">
+                        @foreach($head_pastors as $head_pastor)
+                        @if ($branch->leader == $head_pastor->id)
+                        {{ $head_pastor->title. " ". $head_pastor->name }}  
+                        </td>  
+                        @endif
+                        @endforeach
+                        <td class="text-center">{!! $branch->description !!}</td>
+                        <td class="text-center">{{$branch->mission}}</td>
+                    <td class="text-center">{{$branch->vision}}</td>
+                        <td><a href="{{ route('branches.edit', [$branch->id]) }}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
+                            <a rel="{{$branch->id}}" rel1="destroy" href="javascript:" class="btn btn-danger btn-sm deleteBranch">Delete <i class="icon icon-trash"></i></a></td>
                     </tr>
                     @endforeach
                   </tbody>
@@ -59,10 +71,13 @@
                   <tr>
                     <th>Id</th>
                     <th>Name</th>
+                    <th>Email</th>
+                    <th>Telephone</th>
+                    <th>Address</th>
                     <th>Head Pastor</th>
                     <th>Description</th>
-                    <th>Email</th>
-                    <th>Address</th>
+                    <th>Mission</th>
+                    <th>Vision</th>
                     <th>Action</th>
                   </tr>
                   </tfoot>

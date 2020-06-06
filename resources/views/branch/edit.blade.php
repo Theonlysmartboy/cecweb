@@ -42,20 +42,20 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                    <form role="form" enctype="multipart/form-data" method="post" action="{{route('branches.store')}}">{{ csrf_field() }}
+                    <form role="form" enctype="multipart/form-data" method="post" action="{{route('branches.update', [$branchDetails->id])}}">{{ csrf_field() }}
                         <div class="row">
                             <div class="col-md-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Name</label>
-                                    <input type="text" name="ch_name" class="form-control"  required placeholder="Enter ...">
+                                <input type="text" name="ch_name" class="form-control"  required value="{{$branchDetails->name}}">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Email</label>
-                                    <input type="text" name="ch_mail" class="form-control" required placeholder="Enter ...">
+                                    <input type="text" name="ch_mail" class="form-control" required value="{{$branchDetails->email}}">
                                 </div>
                             </div>
                         </div>
@@ -64,14 +64,14 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Telephone</label>
-                                    <input type="text" name="ch_tel" class="form-control" required placeholder="Enter ...">
+                                    <input type="text" name="ch_tel" class="form-control" required value="{{$branchDetails->tel}}">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Address</label>
-                                    <input type="text" name="ch_address" class="form-control" required placeholder="Enter ...">
+                                    <input type="text" name="ch_address" class="form-control" required value="{{$branchDetails->address}}">
                                 </div>
                             </div>
                         </div>
@@ -91,16 +91,16 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Pastor's Message</label>
-                                    <textarea class="textarea" placeholder="Place some text here" name="ch_pst_msg"
-                          style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                                    <textarea class="textarea" placeholder="Place some text here" name="ch_pst_msg" value="{!!$branchDetails->pst_message!!}"
+                          style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">{!!$branchDetails->pst_message!!}</textarea>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Church Page Content</label>
-                                    <textarea class="textarea" placeholder="Place some text here" name="ch_desc"
-                          style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                                    <textarea class="textarea" placeholder="Place some text here" name="ch_desc" value="{!!$branchDetails->description!!}"
+                          style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">{!!$branchDetails->description!!}</textarea>
                                 </div>
                             </div>
                         </div>
@@ -109,14 +109,14 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Mission</label>
-                                    <input type="text" name="ch_mission" class="form-control" required placeholder="Enter ...">
+                                <input type="text" name="ch_mission" class="form-control" required value="{{$branchDetails->mission}}">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Vision</label>
-                                    <input type="text" name="ch_vision" class="form-control" required placeholder="Enter ...">
+                                    <input type="text" name="ch_vision" class="form-control" required {{$branchDetails->vision}}>
                                 </div>
                         </div>
                         </div>
@@ -125,7 +125,7 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Soccial Media Links</label>
-                                    <input type="text" name="ch_links" class="form-control" required placeholder="Enter ...">
+                                    <input type="text" name="ch_links" class="form-control" required {{$branchDetails->smedia}}>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -133,6 +133,7 @@
                                     <label for="customFile">Church Image</label>
                                     <div class="custom-file">
                                         <input type="file" name="ch_image" class="custom-file-input" id="ch_image">
+                                        <input type="hidden" name="current_image" value="{{$branchDetails->image}}">
                                         <label class="custom-file-label" for="customFile">Choose file</label>
                                     </div>
                                 </div>
@@ -140,6 +141,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6">
+                                @method('PUT')
                                 <input type="submit" class="btn btn-success btn-md" value="Save">
                             </div>
                         </div>

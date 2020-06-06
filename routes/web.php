@@ -34,4 +34,5 @@ Route::group(['prefix' => 'admin'], function () {
     Route::post('/','Auth\AdminLoginController@login')->name('admin.login');
     Route::get('/home','AdminController@index')->name('admin.dashboard');
     Route::get('/leaders/destroy/{id}','leadersController@destroy' );
+    Route::get('/branches/destroy/{id}','BranchController@destroy' );
 });
