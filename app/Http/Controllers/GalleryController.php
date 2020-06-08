@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Ministry;
+use App\Branch;
 
 class GalleryController extends Controller
 {
@@ -14,7 +16,9 @@ class GalleryController extends Controller
     public function index()
     {
         $title = "CEC || Gallery";
-        return view('pages.gallery')->with(compact('title'));
+        $ministries = Ministry::get();
+        $branches = Branch::get();
+        return view('pages.gallery')->with(compact('title','branches','ministries'));
     }
 
     /**

@@ -34,6 +34,7 @@
                   <tr>
                     <th>Id</th>
                     <th>Name</th>
+<<<<<<< HEAD
                     <th>Email</th>
                     <th>Telephone</th>
                     <th>Address</th>
@@ -41,6 +42,12 @@
                     <th>Description</th>
                     <th>Mission</th>
                     <th>Vision</th>
+=======
+                    <th>Head Pastor</th>
+                    <th>Description</th>
+                    <th>Email</th>
+                    <th>Address</th>
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
                     <th>Action</th>
                   </tr>
                   </thead>
@@ -49,6 +56,7 @@
                     <tr>
                         <td class="text-center">{{ $branch->id }}</td>
                         <td class="text-center">{{$branch->name}}</td>
+<<<<<<< HEAD
                         <td class="text-center">{{ $branch->email }}</td>
                         <td class="text-center">{{$branch->tel}}</td>
                        <td class="text-center">{{ $branch->address }}</td>
@@ -64,6 +72,14 @@
                     <td class="text-center">{{$branch->vision}}</td>
                         <td><a href="{{ route('branches.edit', [$branch->id]) }}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
                             <a rel="{{$branch->id}}" rel1="destroy" href="javascript:" class="btn btn-danger btn-sm deleteBranch">Delete <i class="icon icon-trash"></i></a></td>
+=======
+                        <td class="text-center">{{ $branch->leader }}</td>
+                        <td class="text-center">{{ $branch->description }}</td>
+                        <td class="text-center">{{ $branch->email }}</td>
+                       <td class="text-center">{{ $branch->address }}</td>
+                        <td><a href="{{url('admin/user/edit/'.$branch->id)}}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
+                            <a rel="{{$branch->id}}" rel1="delete" href="javascript:" class="btn btn-danger btn-sm deleteUser">Delete <i class="icon icon-trash"></i></a></td>
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
                     </tr>
                     @endforeach
                   </tbody>
@@ -71,6 +87,7 @@
                   <tr>
                     <th>Id</th>
                     <th>Name</th>
+<<<<<<< HEAD
                     <th>Email</th>
                     <th>Telephone</th>
                     <th>Address</th>
@@ -78,6 +95,12 @@
                     <th>Description</th>
                     <th>Mission</th>
                     <th>Vision</th>
+=======
+                    <th>Head Pastor</th>
+                    <th>Description</th>
+                    <th>Email</th>
+                    <th>Address</th>
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
                     <th>Action</th>
                   </tr>
                   </tfoot>

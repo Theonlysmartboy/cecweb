@@ -7,7 +7,10 @@ use Session;
 use App\Branch;
 use App\Leader;
 use App\Ministry;
+<<<<<<< HEAD
 use Image;
+=======
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
 
 class BranchController extends Controller
 {
@@ -16,12 +19,21 @@ class BranchController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+<<<<<<< HEAD
     public function index(){
         if (Session::has('adminSession')) {
         $title = "CEC | Churches";
         $churches = Branch::get();
         $head_pastors = Leader::get();
         return view('branch.index')->with(compact('title','churches','head_pastors'));
+=======
+    public function index()
+    {
+        if (Session::has('adminSession')) {
+        $title = "CEC | Churches";
+        $churches = Branch::get();
+        return view('branch.index')->with(compact('title','churches'));
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
         }
         else{
             return redirect()->back()->with('flash_message_error', 'Access denied!');
@@ -33,14 +45,23 @@ class BranchController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+<<<<<<< HEAD
     public function create(){
+=======
+    public function create()
+    {
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
         if (Session::has('adminSession')) {
             $title = "CEC | Churches | Add" ;
             //Leaders drop down start
             $leaders = Leader::get();
             $leaders_dropdown = "<option selected>Select</option>";
             foreach ($leaders as $leader) {
+<<<<<<< HEAD
                 $leaders_dropdown .= "<option class='bg-ready' value='" . $leader->id . "'>" . $leader->title ." ". $leader->name . "</option>";
+=======
+                $leaders_dropdown .= "<option class='bg-ready' value='" . $leader->id . "'>" . $leader->name . "</option>";
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
             }
 //Leaders dropdown end
             return view('branch.create')->with(compact('title','leaders_dropdown'));
@@ -58,6 +79,7 @@ class BranchController extends Controller
      */
     public function store(Request $request)
     {
+<<<<<<< HEAD
         //User must be admin to add
         if (Session::has('adminSession')) {
             //Get all post data
@@ -95,6 +117,9 @@ class BranchController extends Controller
         else{
             return redirect()->back()->with('flash_message_error', 'Access denied!');
         }
+=======
+        //
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
     }
 
     /**
@@ -121,6 +146,7 @@ class BranchController extends Controller
      */
     public function edit($id)
     {
+<<<<<<< HEAD
         if(Session::has('adminSession')){
             $branchDetails = Branch::where(['id' => $id])->first();
             $title = "CEC | ".$branchDetails->name ." | Edit";
@@ -139,6 +165,9 @@ class BranchController extends Controller
         } else {
             return redirect()->back()->with('flash_message_error', 'Access denied!!');
         }
+=======
+        //
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
     }
 
     /**
@@ -150,6 +179,7 @@ class BranchController extends Controller
      */
     public function update(Request $request, $id)
     {
+<<<<<<< HEAD
         if(Session::has('adminSession')){
             $data = $request->all();
             //check if user has selected a new image file
@@ -185,6 +215,9 @@ class BranchController extends Controller
         }else {
             return redirect()->back()->with('flash_message_error', 'Access denied!!');
         }
+=======
+        //
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
     }
 
     /**
@@ -195,6 +228,7 @@ class BranchController extends Controller
      */
     public function destroy($id)
     {
+<<<<<<< HEAD
         if (Session::has('adminSession')) {
             if (!empty($id)) {
                 //get the particular branch form the db
@@ -211,5 +245,8 @@ class BranchController extends Controller
         } else {
             return redirect()->back()->with('flash_message_error', 'Access denied!!');
         }
+=======
+        //
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
     }
 }

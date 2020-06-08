@@ -24,7 +24,11 @@
           </div>
           <div class="col-md-6 banner_bottom_left">
             <h4>About</h4>
+<<<<<<< HEAD
             <p>{!!$branch_details->description!!} </p>
+=======
+            <p>{{$branch_details->description}} </p>
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
                 <h4>Our Vision</h4>
                 <p>{{$branch_details->vision}}.</p>
                 <h4>Mission Statement</h4>
@@ -44,7 +48,11 @@
                 <h4>Name</h4>
                 <p>{{$head_pastor->title ."".$head_pastor->name}} </p>
                     <h4>Message</h4>
+<<<<<<< HEAD
                     <p>{!!$branch_details->pst_message!!}.</p>
+=======
+                    <p>{{$branch_details->pst_message}}.</p>
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
                     <h4>Biography</h4>
                     <p>{{$head_pastor->bio}}.</p>
               </div>

@@ -199,88 +199,22 @@
       </ul>
       <ul class="portfolio-area">
         <li class="portfolio-item2" data-id="id-1" data-type="cat-item-2">
-          <div>
-            <span class="image-block">
-            <a class="image-zoom" href="{{ url('/news', [1]) }}">
-              
-                <img src="{{ asset('images/webimgs/g2.jpg')}}" class="img-responsive" alt="Conceit">
-              <div class="port-info">
-                    <h5>View</h5>
-                    <p>Description</p>
-                  </div>
-            </a>
-          </span>
-          </div>
+          
         </li>
         <li class="portfolio-item2" data-id="id-2" data-type="cat-item-1">
-          <div>
-            <span class="image-block">
-            <a class="image-zoom" href="{{ url('/news', [1]) }}">
-            <img src="{{ asset('images/webimgs/g3.jpg')}}" class="img-responsive" alt="Conceit">
-              <div class="port-info">
-                    <h5>View</h5>
-                    <p>Description</p>
-                  </div>
-            </a>
-          </span>
-          </div>
+         
         </li>
         <li class="portfolio-item2" data-id="id-4" data-type="cat-item-3">
-          <div>
-            <span class="image-block">
-            <a class="image-zoom" href="{{ url('/news', [1]) }}">
-              
-                <img src="{{ asset('images/webimgs/g5.jpg')}}" class="img-responsive" alt="Conceit">
-                <div class="port-info">
-                    <h5>View</h5>
-                    <p>Description</p>
-                  </div>
-            </a>
-          </span>
-          </div>
+          
         </li>
         <li class="portfolio-item2" data-id="id-5" data-type="cat-item-2">
-          <div>
-            <span class="image-block">
-            <a class="image-zoom" href="{{ url('/news', [1]) }}">
-              
-                <img src="{{ asset('images/webimgs/g6.jpg')}}" class="img-responsive" alt="Conceit">
-                <div class="port-info">
-                    <h5>View</h5>
-                    <p>Description</p>
-                  </div>
-            </a>
-          </span>
-          </div>
+         
         </li>
         <li class="portfolio-item2" data-id="id-6" data-type="cat-item-1">
-          <div>
-            <span class="image-block">
-            <a class="image-zoom" href="{{ url('/news', [1]) }}">
-            
-                <img src="{{ asset('images/webimgs/g7.jpg')}}" class="img-responsive" alt="Conceit">
-                    <div class="port-info">
-                    <h5>View</h5>
-                    <p>Description</p>
-                  </div>
-            </a>
-          </span>
-          </div>
+          
         </li>
         <li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
-          <div>
-            <span class="image-block">
-            <a class="image-zoom" href="{{ url('/news', [1]) }}">
-              
-                <img src="{{ asset('images/webimgs/g8.jpg')}}" class="img-responsive" alt="Conceit">
-                  <div class="port-info">
-                    <h5>View</h5>
-                    <p>Description</p>
-                  </div>
-            
-            </a>
-          </span>
-          </div>
+         
         </li>
         <div class="clearfix"></div>
       </ul>

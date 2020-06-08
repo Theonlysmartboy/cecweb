@@ -117,9 +117,9 @@
         <div class="container">
             <h3 class="tittle-w3ls">Our Leaders</h3>
             <div class="inner_sec_info_wthree_agile">
-                <div class="col-md-2 team_grid_info">
-                    <img src="{{ asset('images/webimgs/pastors/pastor_walwanda.jpg')}}" alt=" " class="img-responsive" />
-                    <h3>Pastor Walwanda </h3>
+                <div class="col-md-3 team_grid_info">
+                    <img src="{{ asset('images/webimgs/pastors/bishop_ochieng.jpg')}}" alt=" " class="img-responsive" />
+                    <h3>Bishop Ochieng</h3>
                     <p>--</p>
                     <div class="team_icons">
                         <ul>
@@ -128,18 +128,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-2 team_grid_info">
-                    <img src="{{ asset('images/webimgs/pastors/rev_bitok.jpg') }}" alt=" " class="img-responsive" />
-                    <h3>Rev. Bitok </h3>
-                    <p>_</p>
-                    <div class="team_icons">
-                        <ul>
-                            <li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-2 team_grid_info">
+                <div class="col-md-3 team_grid_info">
                     <img src="{{ asset('images/webimgs/pastors/Bishop_Opo.jpg')}}" alt=" " class="img-responsive" />
                     <h3>Bishop Opo</h3>
                     <p>Preciding Bishop</p>
@@ -150,10 +139,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-2 team_grid_info">
-                    <img src="{{ asset('images/webimgs/pastors/pastor_laban.jpg')}}" alt=" " class="img-responsive" />
-                    <h3>Pastor Laban</h3>
-                    <p>--</p>
+                <div class="col-md-3 team_grid_info">
+                    <img src="{{ asset('images/webimgs/pastors/bishop_mangeni.jpg') }}" alt=" " class="img-responsive" />
+                    <h3>Bishop Mangeni </h3>
+                    <p>_</p>
                     <div class="team_icons">
                         <ul>
                             <li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -161,20 +150,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-2 team_grid_info">
-                    <img src="{{ asset('images/webimgs/pastors/pastor_omusula.jpg')}}" alt=" " class="img-responsive" />
-                    <h3>Pastor Omusula </h3>
-                    <p>--</p>
-                    <div class="team_icons">
-                        <ul>
-                            <li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-2 team_grid_info">
-                    <img src="{{ asset('images/webimgs/pastors/pastor_ogallo.jpg')}}" alt=" " class="img-responsive" />
-                    <h3>Pastor Ogallo </h3>
+                <div class="col-md-3 team_grid_info">
+                    <img src="{{ asset('images/webimgs/pastors/bishop_mr_and_mrs_wamalwa.jpg')}}" alt=" " class="img-responsive" />
+                    <h3>Bishop MR. and MRS. Wamalwa</h3>
                     <p>--</p>
                     <div class="team_icons">
                         <ul>

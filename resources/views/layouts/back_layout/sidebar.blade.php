@@ -101,7 +101,11 @@
             </a>
           </li>
           <li class="nav-item">
+<<<<<<< HEAD
           <a href="{{route('ministries.index')}}" class="nav-link">
+=======
+            <a href="pages/gallery.html" class="nav-link">
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
               <i class="nav-icon far fa-image"></i>
               <p>
                 Ministries

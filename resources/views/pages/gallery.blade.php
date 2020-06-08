@@ -29,7 +29,7 @@
 						<a href="#" title="Category 2">Events</a>
 					</li>
 					<li class="cat-item-3">
-						<a href="#" title="Category 3">Ministries & Branch Pictorials</a>
+						<a href="#" title="Category 3">Ministries & Church Pictorials</a>
 					</li>
 					<li class="cat-item-4">
 						<a href="#" title="Category 4">Other</a>

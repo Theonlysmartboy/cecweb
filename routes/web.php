@@ -19,11 +19,19 @@ Route::match(['get', 'post'], '/contact', 'PagesController@contact')->name('cont
 Route::post('/subscription', 'SubscriptionsController@subscribe')->name('subscribe');
 Route::resource('/members', 'MembersController');
 Route::resource('/staff', 'StaffController');
+Route::resource('/leaders', 'LeadersController');
 Route::resource('/categories', 'CategoryController');
 Route::resource('/gallery', 'GalleryController');
 Route::resource('/news','NewsController');
 Route::resource('/posts','PostsController');
+Route::resource('/branches', 'BranchController');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::group(['prefix' => 'admin'], function () {
+    Route::get('/','Auth\AdminLoginController@create')->name('admin.login.show');
+    Route::post('/','Auth\AdminLoginController@login')->name('admin.login');
+    Route::get('/home','AdminController@index')->name('admin.dashboard');
+    Route::get('/leaders/destroy/{id}','leadersController@destroy' );
+});
