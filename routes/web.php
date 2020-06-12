@@ -26,6 +26,7 @@ Route::resource('/news','NewsController');
 Route::resource('/posts','PostsController');
 Route::resource('/branches', 'BranchController');
 Route::resource('/ministries', 'MinistriesController');
+Route::resource('/roles', 'RolesController');
 
 Auth::routes();
 
