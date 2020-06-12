@@ -155,3 +155,9 @@
 </div>
 <!-- /.content-wrapper -->
 @endsection
+Your database has been setup. Use the following values:
+
+Database:	itesxjpr_cec-web
+Host:	localhost
+Username:	itesxjpr_admin
+Password:	7zlJs9qg3O
