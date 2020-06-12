@@ -18,7 +18,7 @@ Route::get('/about','PagesController@about')->name('about_us');
 Route::match(['get', 'post'], '/contact', 'PagesController@contact')->name('contact_us');
 Route::post('/subscription', 'SubscriptionsController@subscribe')->name('subscribe');
 Route::resource('/members', 'MembersController');
-Route::resource('/staff', 'StaffController');
+Route::resource('/staffs', 'StaffsController');
 Route::resource('/leaders', 'LeadersController');
 Route::resource('/categories', 'CategoryController');
 Route::resource('/gallery', 'GalleryController');

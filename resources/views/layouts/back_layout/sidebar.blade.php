@@ -93,7 +93,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="{{ route('branches.index') }}" class="nav-link">
+            <a href="{{ route('branches.index') }}" class="nav-link @if(Request::is('branches/*')) active @endif @if(Route::current()->getName() == 'branches.index') active @endif">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Churches
@@ -101,7 +101,7 @@
             </a>
           </li>
           <li class="nav-item">
-          <a href="{{route('ministries.index')}}" class="nav-link">
+          <a href="{{route('ministries.index')}}" class="nav-link @if(Request::is('ministries/*')) active @endif @if(Route::current()->getName() == 'ministries.index') active @endif">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Ministries
@@ -109,7 +109,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ route('leaders.index') }}" class="nav-link">
+            <a href="{{ route('leaders.index') }}" class="nav-link @if(Request::is('leaders/*')) active @endif @if(Route::current()->getName() == 'leaders.index') active @endif">
               <i class="nav-icon far fa-user"></i>
               <p>
                Leaders
@@ -117,10 +117,18 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="pages/gallery.html" class="nav-link">
+            <a href="{{ route('staffs.index') }}" class="nav-link @if(Request::is('staffs/*')) active @endif @if(Route::current()->getName() == 'staffs.index') active @endif">
               <i class="nav-icon far fa-user"></i>
               <p>
                Staff
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ route('categories.index') }}" class="nav-link @if(Request::is('categories/*')) active @endif @if(Route::current()->getName() == 'categories.index') active @endif">
+              <i class="nav-icon far fa-user"></i>
+              <p>
+               Categories
               </p>
             </a>
           </li>
@@ -132,32 +140,6 @@
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="pages/forms/general.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>General Elements</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/forms/advanced.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Advanced Elements</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/forms/editors.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Editors</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/forms/validation.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Validation</p>
-                </a>
-              </li>
-            </ul>
           </li>
           <li class="nav-item">
             <a href="pages/widgets.html" class="nav-link">
