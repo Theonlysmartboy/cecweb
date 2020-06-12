@@ -13,8 +13,7 @@ class CategoryController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
+    public function index(){
         if (Session::has('adminSession')) {
             $title = "CEC | Categories";
             $categories = Category::get();
@@ -30,8 +29,7 @@ class CategoryController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
+    public function create(){
         if (Session::has('adminSession')) {
             $title = "CEC | Categories | Add";
             return view('category.create')->with(compact('title'));
@@ -47,8 +45,7 @@ class CategoryController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
+    public function store(Request $request){
         if(Session::has('adminSession')){
             $data = $request->all();
             $category = new Category;
@@ -67,8 +64,7 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
+    public function show($id){
         //
     }
 
@@ -78,8 +74,7 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
-    {
+    public function edit($id){
         if(Session::has('adminSession')){
             $categoryDetails = Category::where(['id'=>$id])->first();
             $title = $categoryDetails->title;
@@ -96,8 +91,7 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
+    public function update(Request $request, $id){
         if(Session::has('adminSession')){
         $data = $request->all();
         Category::where(['id' => $id])->update(['title' => $data['c_title'], 'description' => $data['c_desc']]);
@@ -113,8 +107,7 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
-    {
+    public function destroy($id){
         if(Session::has('adminSession')){
             if (!empty($id)) {
                 Category::where(['id' => $id])->delete();
@@ -123,6 +116,5 @@ class CategoryController extends Controller
         }else{
             return redirect()->back()->with('flash_message_error', 'Access denied!');
         }
-    
     }
 }

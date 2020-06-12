@@ -77,7 +77,7 @@ $(".deleteMinistry").click(function () {
         }
     });
 });
-    //Function to delete CAtegories
+    //Function to delete Categories
 $(".deleteCategory").click(function () {
     var id = $(this).attr('rel');
     var deleteFunction = $(this).attr('rel1');
@@ -96,6 +96,30 @@ $(".deleteCategory").click(function () {
                     Swal.fire(
                         'Deleted!',
                         'Category data has been deleted.',
+                        'success'
+                      )
+        }
+    });
+});
+//Function to delete Roles
+$(".deleteRole").click(function () {
+    var id = $(this).attr('rel');
+    var deleteFunction = $(this).attr('rel1');
+    Swal.fire({
+        title: 'Are you sure you want to delete this Role?',
+        text: "You won't be able to revert this!",
+        icon: 'warning',
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#d33',
+        cancelButtonColor: '#28a745',
+        confirmButtonText: 'Yes, delete it!'
+    }).then((result) => {
+        if (result.value) {
+            window.location.href = "/admin/roles/" + deleteFunction + "/" + id;
+                    Swal.fire(
+                        'Deleted!',
+                        'Role data has been deleted.',
                         'success'
                       )
         }

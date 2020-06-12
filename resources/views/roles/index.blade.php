@@ -7,12 +7,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Categories</h1>
+            <h1>Roles</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="{{ route('admin.dashboard') }}">Home</a></li>
-              <li class="breadcrumb-item active">Categories</li>
+              <li class="breadcrumb-item active">Roles</li>
             </ol>
           </div>
         </div>
@@ -25,7 +25,7 @@
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <a class="card-title btn btn-success text-center" href="{{ route('categories.create') }}">Add</a>
+                <a class="card-title btn btn-success text-center" href="{{ route('roles.create') }}">Add</a>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -39,13 +39,13 @@
                   </tr>
                   </thead>
                   <tbody>
-                    @foreach($categories as $category)
+                    @foreach($roles as $role)
                     <tr>
-                        <td class="text-center">{{ $category->id }}</td>
-                        <td class="text-center">{{$category->title}}</td>
-                       <td class="text-center">{!! $category->description !!}</td>
-                        <td><a href="{{ route('categories.edit', [$category->id]) }}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
-                            <a rel="{{$category->id}}" rel1="destroy" href="javascript:" class="btn btn-danger btn-sm deleteCategory">Delete <i class="icon icon-trash"></i></a></td>
+                        <td class="text-center">{{ $role->id }}</td>
+                        <td class="text-center">{{$role->title}}</td>
+                       <td class="text-center">{!! $role->description !!}</td>
+                        <td><a href="{{ route('roles.edit', [$role->id]) }}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
+                            <a rel="{{$role->id}}" rel1="destroy" href="javascript:" class="btn btn-danger btn-sm deleteRole">Delete <i class="icon icon-trash"></i></a></td>
                     </tr>
                     @endforeach
                   </tbody>

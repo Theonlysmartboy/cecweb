@@ -24,7 +24,7 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{route('admin.dashboard')}}">Home</a></li>
-                        <li class="breadcrumb-item"> <a href="{{route('categories.index')}}">Categories</a></li>
+                        <li class="breadcrumb-item"> <a href="{{route('roles.index')}}">Roles</a></li>
                         <li class="breadcrumb-item active">Create</li>
                     </ol>
                 </div>
@@ -38,17 +38,17 @@
             <!-- general form elements disabled -->
             <div class="card card-warning">
                 <div class="card-header">
-                    <h3 class="card-title text-center">Create Categories form</h3>
+                    <h3 class="card-title text-center">Create Roles form</h3>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                    <form role="form" enctype="multipart/form-data" method="post" action="{{route('categories.store')}}">{{ csrf_field() }}
+                    <form role="form" enctype="multipart/form-data" method="post" action="{{route('roles.store')}}">{{ csrf_field() }}
                         <div class="row">
                             <div class="col-sm-6">
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Title</label>
-                                    <input type="text" name="c_title" class="form-control"  required placeholder="Enter ...">
+                                    <input type="text" name="r_title" class="form-control"  required placeholder="Enter ...">
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Description</label>
-                                    <textarea class="textarea" placeholder="Place some text here" name="c_desc"
+                                    <textarea class="textarea" placeholder="Place some text here" name="r_desc"
                           style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
                                 </div>
                             </div>

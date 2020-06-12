@@ -13,8 +13,7 @@ class RolesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
+    public function index(){
         if (Session::has('adminSession')) {
             $title = "CEC | Roles";
             $roles = Role::get();
@@ -30,9 +29,14 @@ class RolesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        //
+    public function create(){
+        if (Session::has('adminSession')) {
+            $title = "CEC | Roles | Add";
+            return view('roles.create')->with(compact('title'));
+            }
+            else{
+                return redirect()->back()->with('flash_message_error', 'Access denied!');
+            }
     }
 
     /**
@@ -41,9 +45,17 @@ class RolesController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        //
+    public function store(Request $request){
+        if(Session::has('adminSession')){
+            $data = $request->all();
+            $role = new Role;
+            $role->title = $data['r_title'];
+            $role->description = $data['r_desc'];
+            $role->save();
+            return redirect('roles/')->with('flash_message_success', 'Role successfuly added');
+        }else{
+            return redirect()->back()->with('flash_message_error', 'Access denied!');
+        }
     }
 
     /**
@@ -52,8 +64,7 @@ class RolesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
+    public function show($id){
         //
     }
 
@@ -63,9 +74,14 @@ class RolesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
-    {
-        //
+    public function edit($id){
+        if(Session::has('adminSession')){
+            $roleDetails = Role::where(['id'=>$id])->first();
+            $title = $roleDetails->title;
+            return view('roles.edit')->with(compact('roleDetails', 'title'));
+    }else{
+        return redirect()->back()->with('flash_message_error', 'Access denied!');
+    }
     }
 
     /**
@@ -77,7 +93,13 @@ class RolesController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        if(Session::has('adminSession')){
+            $data = $request->all();
+            Role::where(['id' => $id])->update(['title' => $data['c_title'], 'description' => $data['c_desc']]);
+            return redirect('roles/')->with('flash_message_success', 'Role details updated Successfully');
+        }else{
+            return redirect()->back()->with('flash_message_error', 'Access denied!');
+        }
     }
 
     /**
@@ -86,8 +108,14 @@ class RolesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
-    {
-        //
+    public function destroy($id){
+        if(Session::has('adminSession')){
+            if (!empty($id)) {
+                Role::where(['id' => $id])->delete();
+                return redirect()->back()->with('flash_message_success', 'Role Deleted Successfully');
+            }
+        }else{
+            return redirect()->back()->with('flash_message_error', 'Access denied!');
+        }
     }
 }
