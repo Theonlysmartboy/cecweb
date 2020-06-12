@@ -1,6 +1,4 @@
  $(document).ready(function(){
-
- 
  //Automatically close alerts
  window.setTimeout(function () {
     $(".alert").fadeTo(500, 0).slideUp(500, function () {
@@ -74,6 +72,30 @@ $(".deleteMinistry").click(function () {
                     Swal.fire(
                         'Deleted!',
                         'Ministry data has been deleted.',
+                        'success'
+                      )
+        }
+    });
+});
+    //Function to delete CAtegories
+$(".deleteCategory").click(function () {
+    var id = $(this).attr('rel');
+    var deleteFunction = $(this).attr('rel1');
+    Swal.fire({
+        title: 'Are you sure you want to delete this Category?',
+        text: "You won't be able to revert this!",
+        icon: 'warning',
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#d33',
+        cancelButtonColor: '#28a745',
+        confirmButtonText: 'Yes, delete it!'
+    }).then((result) => {
+        if (result.value) {
+            window.location.href = "/admin/categories/" + deleteFunction + "/" + id;
+                    Swal.fire(
+                        'Deleted!',
+                        'Category data has been deleted.',
                         'success'
                       )
         }

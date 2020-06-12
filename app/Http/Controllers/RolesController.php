@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Session;
+use App\Role;
 
 class RolesController extends Controller
 {
@@ -13,7 +15,14 @@ class RolesController extends Controller
      */
     public function index()
     {
-        //
+        if (Session::has('adminSession')) {
+            $title = "CEC | Roles";
+            $roles = Role::get();
+            return view('roles.index')->with(compact('title','roles'));
+            }
+            else{
+                return redirect()->back()->with('flash_message_error', 'Access denied!');
+            }
     }
 
     /**

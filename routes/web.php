@@ -38,4 +38,7 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('/leaders/destroy/{id}','leadersController@destroy' );
     Route::get('/branches/destroy/{id}','BranchController@destroy' );
     Route::get('/ministries/destroy/{id}','MinistriesController@destroy' );
+    Route::get('/categories/destroy/{id}', 'CategoryController@destroy');
+    Route::get('/roles/destroy/{id}', 'RolesController@destroy');
+    Route::get('/staffs/destroy/{id}', 'StaffsController@destroy');
 });

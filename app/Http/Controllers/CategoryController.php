@@ -115,6 +115,14 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        if(Session::has('adminSession')){
+            if (!empty($id)) {
+                Category::where(['id' => $id])->delete();
+                return redirect()->back()->with('flash_message_success', 'Category Deleted Successfully');
+            }
+        }else{
+            return redirect()->back()->with('flash_message_error', 'Access denied!');
+        }
+    
     }
 }
