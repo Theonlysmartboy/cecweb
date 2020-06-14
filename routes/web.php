@@ -41,4 +41,5 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('/categories/destroy/{id}', 'CategoryController@destroy');
     Route::get('/roles/destroy/{id}', 'RolesController@destroy');
     Route::get('/staffs/destroy/{id}', 'StaffsController@destroy');
+    Route::get('/posts/destroy/{id}', 'PostsController@destroy');
 });

@@ -9,8 +9,7 @@ use App\Leader;
 use App\Ministry;
 use Image;
 
-class BranchController extends Controller
-{
+class BranchController extends Controller{
     /**
      * Display a listing of the resource.
      *
@@ -56,8 +55,7 @@ class BranchController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
+    public function store(Request $request){
         //User must be admin to add
         if (Session::has('adminSession')) {
             //Get all post data
@@ -73,8 +71,10 @@ class BranchController extends Controller
                         $extension = $image_temp->getClientOriginalExtension();
                         $filename = mt_rand(000, 9999999999) . '.' . $extension;
                         $filepath = public_path().'/images/webimgs/branches/uploads/' . $filename;
+                        $large_filepath = public_path().'/images/webimgs/branches/uploads/large/' . $filename;
                         //upload the image
                         Image::make($image_temp)->resize(100, 100)->save($filepath);
+                        Image::make($image_temp)->resize(1680,750)->save($large_filepath);
                         $branch->image = $filename;
                     }
                 }
@@ -103,8 +103,7 @@ class BranchController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
+    public function show($id){
         $branch_details = Branch::where(['id' => $id])->first();
         $head_pastor = Leader::where(['id'=>$branch_details->leader])->first();
         $title = $branch_details->name;
@@ -119,8 +118,7 @@ class BranchController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
-    {
+    public function edit($id){
         if(Session::has('adminSession')){
             $branchDetails = Branch::where(['id' => $id])->first();
             $title = "CEC | ".$branchDetails->name ." | Edit";
@@ -148,8 +146,7 @@ class BranchController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
+    public function update(Request $request, $id){
         if(Session::has('adminSession')){
             $data = $request->all();
             //check if user has selected a new image file
@@ -160,16 +157,23 @@ class BranchController extends Controller
                 $extension = $image_temp->getClientOriginalExtension();
                 $filename = rand(000, 9999999999) . '.' . $extension;
                 $image_path = public_path().'/images/webimgs/branches/uploads/' . $filename;
+                $large_image_path = public_path().'/images/webimgs/branches/uploads/large/' . $filename;
                 //Resize and upload images
                 Image::make($image_temp)->resize(100,100)->save($image_path);
+                Image::make($image_temp)->resize(1680,750)->save($large_image_path);
                 $branch = Branch::where(['id' => $id])->first();
                 //Get branch image paths
                 $image_path = public_path().'/images/webimgs/branches/uploads/';
+                $large_image_path = public_path().'/images/webimgs/branches/uploads/large/';
                 //check if user had previously uploaded an image
                 if($branch->image !=null || $branch->image!=""){
                 //Delete the image if exists
                 if (file_exists($image_path . $branch->image)) {
                     unlink($image_path . $branch->image);
+                }
+                //Delete the large image too
+                if (file_exists($large_image_path . $branch->image)) {
+                    unlink($large_image_path . $branch->image);
                 }
             }
             }
@@ -193,18 +197,25 @@ class BranchController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
-    {
+    public function destroy($id){
         if (Session::has('adminSession')) {
             if (!empty($id)) {
                 //get the particular branch form the db
                 $branch = Branch::where(['id' => $id])->first();
-                //Get image path
+                //Get branch image paths
                 $image_path = public_path().'/images/webimgs/branches/uploads/';
-                //Delete the image if it exists
+                $large_image_path = public_path().'/images/webimgs/branches/uploads/large/';
+                //check if user had previously uploaded an image
+                if($branch->image !=null || $branch->image!=""){
+                //Delete the image if exists
                 if (file_exists($image_path . $branch->image)) {
                     unlink($image_path . $branch->image);
                 }
+                //Delete the large image too
+                if (file_exists($large_image_path . $branch->image)) {
+                    unlink($large_image_path . $branch->image);
+                }
+            }
                 Branch::where(['id' => $id])->delete();
                 return redirect()->back()->with('flash_message_success', 'Church details Deleted Successfully');
             }

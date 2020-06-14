@@ -125,4 +125,28 @@ $(".deleteRole").click(function () {
         }
     });
 });
+//Function to delete Posts
+$(".deletePost").click(function () {
+    var id = $(this).attr('rel');
+    var deleteFunction = $(this).attr('rel1');
+    Swal.fire({
+        title: 'Are you sure you want to delete thisPost?',
+        text: "You won't be able to revert this!",
+        icon: 'warning',
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#d33',
+        cancelButtonColor: '#28a745',
+        confirmButtonText: 'Yes, delete it!'
+    }).then((result) => {
+        if (result.value) {
+            window.location.href = "/admin/posts/" + deleteFunction + "/" + id;
+                    Swal.fire(
+                        'Deleted!',
+                        'Post has been deleted.',
+                        'success'
+                      )
+        }
+    });
+});
 })
