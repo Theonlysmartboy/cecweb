@@ -101,7 +101,19 @@
             </a>
           </li>
           <li class="nav-item">
+<<<<<<< HEAD
           <a href="{{route('ministries.index')}}" class="nav-link @if(Request::is('ministries/*')) active @endif @if(Route::current()->getName() == 'ministries.index') active @endif">
+=======
+<<<<<<< HEAD
+          <a href="{{route('ministries.index')}}" class="nav-link">
+=======
+<<<<<<< HEAD
+          <a href="{{route('ministries.index')}}" class="nav-link">
+=======
+            <a href="pages/gallery.html" class="nav-link">
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
+>>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
+>>>>>>> bf789bef65ec8a20554cf3a825562c1c5f8e8f1b
               <i class="nav-icon far fa-image"></i>
               <p>
                 Ministries

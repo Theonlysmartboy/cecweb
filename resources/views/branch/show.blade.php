@@ -30,6 +30,7 @@
             <!-- paragraph -->
           {!!$branch_details->mission!!}
           </div>
+<<<<<<< HEAD
         </div>
         <div class="col-md-6 col-sm-6">
           <!-- feature item -->
@@ -40,11 +41,29 @@
             <h4>Vision</h4>
             <!-- paragraph -->
             {!!$branch_details->vision!!}
+=======
+          <div class="col-md-6 banner_bottom_left">
+            <h4>About</h4>
+<<<<<<< HEAD
+            <p>{!!$branch_details->description!!} </p>
+=======
+<<<<<<< HEAD
+            <p>{!!$branch_details->description!!} </p>
+=======
+            <p>{{$branch_details->description}} </p>
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
+>>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
+                <h4>Our Vision</h4>
+                <p>{{$branch_details->vision}}.</p>
+                <h4>Mission Statement</h4>
+                <p>{{$branch_details->mission}}.</p>
+>>>>>>> 2a1f629ce824991de291c6147e2cf1033a7ba967
           </div>
         </div>
       </div>
     </div>
   </div>
+<<<<<<< HEAD
   <!-- subscribe and About block -->
   <div class="subscribe">
     <div class="container">
@@ -73,6 +92,32 @@
             <div class="embed-responsive embed-responsive-16by9">
               <img class="embed-responsive-item" src="{{ asset('images/webimgs/branches/uploads/large/'.$branch_details->image) }}">
             </div>
+=======
+<!--//ab-->
+<div class="banner_bottom">
+    <div class="container jumbotron">
+      <h3 class="tittle-w3ls">Head Pastor</h3>
+      <div class="inner_sec_info_wthree_agile">
+        <div class="help_full">
+            <div class="col-md-6 banner_bottom_left">
+                <h4>Name</h4>
+                <p>{{$head_pastor->title ."".$head_pastor->name}} </p>
+                    <h4>Message</h4>
+<<<<<<< HEAD
+                    <p>{!!$branch_details->pst_message!!}.</p>
+=======
+<<<<<<< HEAD
+                    <p>{!!$branch_details->pst_message!!}.</p>
+=======
+                    <p>{{$branch_details->pst_message}}.</p>
+>>>>>>> a1e83c677355f459c91f73aad871022140866511
+>>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
+                    <h4>Biography</h4>
+                    <p>{{$head_pastor->bio}}.</p>
+              </div>
+          <div class="col-md-6 banner_bottom_grid help">
+            <img src="{{ asset('images/webimgs/banner1.jpg') }}" alt=" " class="img-responsive">
+>>>>>>> 2a1f629ce824991de291c6147e2cf1033a7ba967
           </div>
         </div>
       </div>
