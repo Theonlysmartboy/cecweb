@@ -102,7 +102,7 @@ class MinistriesController extends Controller
         $head_pastor = Leader::where(['id'=>$ministry_details->leader])->first();
         $title = $ministry_details->name;
         $ministries = Ministry::get();
-      $branches = Branch::get();
+        $branches = Branch::get();
         return view('ministry.show')->with(Compact('title','ministry_details','branches','ministries','head_pastor'));
     }
 
