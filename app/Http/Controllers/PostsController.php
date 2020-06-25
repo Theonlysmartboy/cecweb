@@ -6,11 +6,8 @@ use Illuminate\Http\Request;
 use Session;
 use App\Category;
 use App\Post;
-<<<<<<< HEAD
 use Auth;
 use Image;
-=======
->>>>>>> 2a1f629ce824991de291c6147e2cf1033a7ba967
 
 class PostsController extends Controller
 {
@@ -25,11 +22,7 @@ class PostsController extends Controller
             $title = "CEC | Posts";
             $posts = Post::get();
             $categories = Category::get();
-<<<<<<< HEAD
             return view('post.index')->with(compact('title','posts','categories'));
-=======
-            return view('posts.index')->with(compact('title','posts','categories'));
->>>>>>> 2a1f629ce824991de291c6147e2cf1033a7ba967
             }
             else{
                 return redirect()->back()->with('flash_message_error', 'Access denied!');
@@ -52,11 +45,7 @@ class PostsController extends Controller
                 $categories_dropdown .= "<option class='bg-ready' value='" . $category->id . "'>" . $category->title. "</option>";
             }
 //categories dropdown end
-<<<<<<< HEAD
             return view('post.create')->with(compact('title','categories_dropdown'));
-=======
-            return view('posts.create')->with(compact('title','categories_dropdown'));
->>>>>>> 2a1f629ce824991de291c6147e2cf1033a7ba967
             }
             else{
                 return redirect()->back()->with('flash_message_error', 'Access denied!');

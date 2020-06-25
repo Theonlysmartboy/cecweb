@@ -24,15 +24,7 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{route('admin.dashboard')}}">Home</a></li>
-<<<<<<< HEAD
                         <li class="breadcrumb-item"> <a href="{{route('leaders.index')}}">Leaders</a></li>
-=======
-<<<<<<< HEAD
-                        <li class="breadcrumb-item"> <a href="{{route('leaders.index')}}">Leaders</a></li>
-=======
-                        <li class="breadcrumb-item"> <a href="{{route('branches.index')}}">Leaders</a></li>
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
                         <li class="breadcrumb-item active">Create</li>
                     </ol>
                 </div>
@@ -46,15 +38,7 @@
             <!-- general form elements disabled -->
             <div class="card card-warning">
                 <div class="card-header">
-<<<<<<< HEAD
                     <h3 class="card-title text-center">Create Leaders form</h3>
-=======
-<<<<<<< HEAD
-                    <h3 class="card-title text-center">Create Leaders form</h3>
-=======
-                    <h3 class="card-title">Create Leaders form</h3>
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">

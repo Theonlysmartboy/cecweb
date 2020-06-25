@@ -104,11 +104,11 @@
           <img src="{{ asset('images/webimgs/banner1.jpg') }}" alt=" " class="img-responsive">
         </div>
         <div class="col-md-6 banner_bottom_left">
-          <h4>Christ’s Evangelistic Church (CEC)</h4>
-          <p>We are a body of churches dedicated to serving God’s purposes in the present times and fulfilling the great commission 
-            <code>“Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the 
+          <h4>Christ&#39;s Evangelistic Church (CEC)</h4>
+          <p>We are a body of churches dedicated to serving God&#39;s purposes in the present times and fulfilling the great commission 
+            <code>&#34;Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the 
               Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end 
-              of the age” (Matthew 28:18-20)</code> mandated by Jesus Christ. </p>
+              of the age&#34; (Matthew 28:18-20)</code> mandated by Jesus Christ. </p>
               <h4>Our Vision</h4>
               <p>To see people evangelized, discipled, equipped, empowered and serving God faithfully.</p>
           <div class="ab_button">
@@ -118,8 +118,38 @@
       </div>
     </div>
   </div>
+  <div class="container jumbotron">
+    <h4 class="tittle-w3ls text-center">Message From The Preciding Bishop</h4>
+    <div class="inner_sec_info_wthree_agile">
+      <div class="help_full">
+        <div class="col-md-4 banner_bottom_grid help">
+          <img src="{{ asset('images/webimgs/pastors/uploads/kephar.jpg') }}" alt=" " class="img-responsive">
+        </div>
+        <div class="col-md-8 banner_bottom_left">
+          <h4>Bishop Kephar</h4>
+          <p>-</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container jumbotron">
+    <h4 class="tittle-w3ls text-center">Message From The Deputy Preciding Bishop</h4>
+    <div class="inner_sec_info_wthree_agile">
+      <div class="help_full">
+        <div class="col-md-4 banner_bottom_grid help">
+          <img src="{{ asset('images/webimgs/pastors/uploads/ombori.jpg') }}" alt=" " class="img-responsive">
+        </div>
+        <div class="col-md-8 banner_bottom_left">
+          <h4>Bishop Ombori</h4>
+          <p>-</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <!--//ab-->
+<!--Greeting-->
+<
 <!--/what-->
 <div class="works">
   <div class="container">

@@ -10,15 +10,7 @@ $(".deleteLeader").click(function () {
     var id = $(this).attr('rel');
     var deleteFunction = $(this).attr('rel1');
     Swal.fire({
-<<<<<<< HEAD
         title: 'Are you sure you want to delete this Leader?',
-=======
-<<<<<<< HEAD
-        title: 'Are you sure you want to delete this Leader?',
-=======
-        title: 'Are you sure you want to delete this zone?',
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
         text: "You won't be able to revert this!",
         icon: 'warning',
         type: 'warning',
@@ -37,10 +29,6 @@ $(".deleteLeader").click(function () {
         }
     });
 });
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
 //Function to delete Churches
 $(".deleteBranch").click(function () {
     var id = $(this).attr('rel');
@@ -89,7 +77,6 @@ $(".deleteMinistry").click(function () {
         }
     });
 });
-<<<<<<< HEAD
     //Function to delete Categories
 $(".deleteCategory").click(function () {
     var id = $(this).attr('rel');
@@ -138,7 +125,6 @@ $(".deleteRole").click(function () {
         }
     });
 });
-<<<<<<< HEAD
 //Function to delete Posts
 $(".deletePost").click(function () {
     var id = $(this).attr('rel');
@@ -163,13 +149,4 @@ $(".deletePost").click(function () {
         }
     });
 });
-=======
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
->>>>>>> bf789bef65ec8a20554cf3a825562c1c5f8e8f1b
->>>>>>> 2a1f629ce824991de291c6147e2cf1033a7ba967
 })

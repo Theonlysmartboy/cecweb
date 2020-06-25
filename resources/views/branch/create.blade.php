@@ -6,15 +6,7 @@
     <section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
-<<<<<<< HEAD
                 <div class="col-md-6">
-=======
-<<<<<<< HEAD
-                <div class="col-md-6">
-=======
-                <div class="col-sm-6">
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
                     <h1>Churches</h1>
                     @if(Session::has('flash_message_error'))
                     <div class="alert alert-danger alert-block" id="autoClose" >
@@ -29,15 +21,7 @@
                     </div>
                     @endif
                 </div>
-<<<<<<< HEAD
                 <div class="col-md-6">
-=======
-<<<<<<< HEAD
-                <div class="col-md-6">
-=======
-                <div class="col-sm-6">
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{route('admin.dashboard')}}">Home</a></li>
                         <li class="breadcrumb-item"> <a href="{{route('branches.index')}}">Churches</a></li>
@@ -60,25 +44,13 @@
                 <div class="card-body">
                     <form role="form" enctype="multipart/form-data" method="post" action="{{route('branches.store')}}">{{ csrf_field() }}
                         <div class="row">
-<<<<<<< HEAD
                             <div class="col-md-6">
-=======
-<<<<<<< HEAD
-                            <div class="col-md-6">
-=======
-                            <div class="col-sm-6">
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Name</label>
                                     <input type="text" name="ch_name" class="form-control"  required placeholder="Enter ...">
                                 </div>
                             </div>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
                             <div class="col-md-6">
                                 <!-- text input -->
                                 <div class="form-group">
@@ -102,8 +74,6 @@
                                     <input type="text" name="ch_address" class="form-control" required placeholder="Enter ...">
                                 </div>
                             </div>
-<<<<<<< HEAD
-=======
                         </div>
                         <div class="row">
                             <div class="col-md-6">
@@ -111,30 +81,12 @@
                                 <div class="form-group">
                                     <label>Head Pastor</label>
                                     <select  required class="form-control" name="ch_leader">
-=======
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <!-- select -->
-                                <div class="form-group">
-                                    <label>Head Pastor</label>
-<<<<<<< HEAD
-                                    <select  required class="form-control" name="ch_leader">
-=======
-                                    <select name="leader"  required class="form-control">
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
                                         <?php echo $leaders_dropdown ?>
                                     </select>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-<<<<<<< HEAD
-                            <div class="col-md-6">
-=======
-<<<<<<< HEAD
                             <div class="col-md-6">
                                 <!-- text input -->
                                 <div class="form-group">
@@ -149,36 +101,10 @@
                                     <label>Church Page Content</label>
                                     <textarea class="textarea" placeholder="Place some text here" name="ch_desc"
                           style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
-=======
-                            <div class="col-sm-6">
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
-                                <!-- text input -->
-                                <div class="form-group">
-                                    <label>Pastor's Message</label>
-                                    <textarea class="textarea" placeholder="Place some text here" name="ch_pst_msg"
-                          style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <!-- text input -->
-                                <div class="form-group">
-<<<<<<< HEAD
-                                    <label>Church Page Content</label>
-                                    <textarea class="textarea" placeholder="Place some text here" name="ch_desc"
-                          style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
-=======
-                                    <label>Telephone</label>
-                                    <input type="text" name="ch_tel" class="form-control" required placeholder="Enter ...">
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-<<<<<<< HEAD
-                            <div class="col-md-6">
-=======
-<<<<<<< HEAD
                             <div class="col-md-6">
                                 <!-- text input -->
                                 <div class="form-group">
@@ -207,56 +133,13 @@
                                     <label for="customFile">Church Image</label>
                                     <div class="custom-file">
                                         <input type="file" name="ch_image" class="custom-file-input" id="ch_image">
-=======
-                            <div class="col-sm-6">
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
-                                <!-- text input -->
-                                <div class="form-group">
-                                    <label>Mission</label>
-                                    <input type="text" name="ch_mission" class="form-control" required placeholder="Enter ...">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <!-- text input -->
-                                <div class="form-group">
-                                    <label>Vision</label>
-                                    <input type="text" name="ch_vision" class="form-control" required placeholder="Enter ...">
-                                </div>
-                        </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <!-- text input -->
-                                <div class="form-group">
-                                    <label>Soccial Media Links</label>
-                                    <input type="text" name="ch_links" class="form-control" required placeholder="Enter ...">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="customFile">Church Image</label>
-                                    <div class="custom-file">
-<<<<<<< HEAD
-                                        <input type="file" name="ch_image" class="custom-file-input" id="ch_image">
-=======
-                                        <input type="file" name="p_image" class="custom-file-input" id="p_image">
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
                                         <label class="custom-file-label" for="customFile">Choose file</label>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-<<<<<<< HEAD
                             <div class="col-md-6">
-=======
-<<<<<<< HEAD
-                            <div class="col-md-6">
-=======
-                            <div class="col-sm-6">
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
                                 <input type="submit" class="btn btn-success btn-md" value="Save">
                             </div>
                         </div>

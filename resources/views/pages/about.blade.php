@@ -23,11 +23,11 @@
             <img src="{{ asset('images/webimgs/banner1.jpg') }}" alt=" " class="img-responsive">
           </div>
           <div class="col-md-6 banner_bottom_left">
-            <h4>Christ’s Evangelistic Church (CEC)</h4>
-            <p>Christ Evangelistic Church formally AFCEA is a Pentecostal, Bible based, Christ Centre, people oriented, vibrant and charismatic church. We a body of churches dedicated to serving God’s purposes in the present times and fulfilling the great commission 
-              <code>“Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the 
-                Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end 
-                of the age” (Matthew 28:18-20)</code> mandated by Jesus Christ. </p>
+            <h4>Christ&#39;s Evangelistic Church (CEC)</h4>
+          <p>We are a body of churches dedicated to serving God&#39;s purposes in the present times and fulfilling the great commission 
+            <code>&#34;Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the 
+              Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end 
+              of the age&#34; (Matthew 28:18-20)</code> mandated by Jesus Christ. </p>
                 <h4>Our Vision</h4>
                 <p>To see people evangelized, discipled, equipped, empowered and serving God faithfully.</p>
                 <h4>Mission Statement</h4>
@@ -118,31 +118,20 @@
             <h3 class="tittle-w3ls">Our Leaders</h3>
             <div class="inner_sec_info_wthree_agile">
                 <div class="col-md-3 team_grid_info">
-                    <img src="{{ asset('images/webimgs/pastors/bishop_ochieng.jpg')}}" alt=" " class="img-responsive" />
-                    <h3>Bishop Ochieng</h3>
-                    <p>--</p>
-                    <div class="team_icons">
-                        <ul>
-                            <li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 team_grid_info">
-                    <img src="{{ asset('images/webimgs/pastors/Bishop_Opo.jpg')}}" alt=" " class="img-responsive" />
-                    <h3>Bishop Opo</h3>
+                    <img src="{{ asset('images/webimgs/pastors/uploads/kephar.jpg')}}" alt=" " class="img-responsive" />
+                    <h3>Bishop Dr. Kephar Asunga Okwembe </h3>
                     <p>Preciding Bishop</p>
                     <div class="team_icons">
                         <ul>
-                            <li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.facebook.com/kepher.okwemba.75" target="-blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-3 team_grid_info">
-                    <img src="{{ asset('images/webimgs/pastors/bishop_mangeni.jpg') }}" alt=" " class="img-responsive" />
-                    <h3>Bishop Mangeni </h3>
-                    <p>_</p>
+                    <img src="{{ asset('images/webimgs/pastors/uploads/ombori.jpg')}}" alt=" " class="img-responsive" />
+                    <h3>Bishop Ongilo O.Odundo</h3>
+                    <p>Deputy Preciding Bishop</p>
                     <div class="team_icons">
                         <ul>
                             <li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -151,9 +140,80 @@
                     </div>
                 </div>
                 <div class="col-md-3 team_grid_info">
+                    <img src="{{ asset('images/webimgs/pastors/bishop_opo.jpg')}}" alt=" " class="img-responsive" />
+                    <h3>Bishop Dr. Aggrey Opo</h3>
+                    <p>General Secretary and bishop Malaha Region</p>
+                    <div class="team_icons">
+                        <ul>
+                            <li><a href="https://www.facebook.com/aggrey.opo" target="-blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 team_grid_info">
+                    <img src="{{ asset('images/webimgs/pastors/uploads/kibisu.jpg')}}" alt=" " class="img-responsive" />
+                    <h3>Bishop Dr. Michael Kibisu </h3>
+                    <p>Deputy General Secretary and bishop Malava Region</p>
+                    <div class="team_icons">
+                        <ul>
+                            <li><a href="https://www.facebook.com/michael.kibisu.7" target="-blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="inner_sec_info_wthree_agile">
+                <div class="col-md-3 team_grid_info">
+                    <img src="{{ asset('images/webimgs/pastors/bishop_mangeni.jpg') }}" alt=" " class="img-responsive" />
+                    <h3>Bishop Dr. Julius W.O Mange&#39;ni  </h3>
+                    <p>General Treasurer and bishop Eldoret Region </p>
+                    <div class="team_icons">
+                        <ul>
+                            <li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 team_grid_info">
+                    <img src="{{ asset('images/webimgs/pastors/bishop_ochieng.jpg')}}" alt=" " class="img-responsive" />
+                    <h3>Bishop Stanley Ochieng Odingo</h3>
+                    <p>Director of Christian Education and Bishop Mfangano Region</p>
+                    <div class="team_icons">
+                        <ul>
+                            <li><a href="https://www.facebook.com/stanely.odingo" target="-blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 team_grid_info">
+                    <img src="{{ asset('images/webimgs/pastors/uploads/captain.jpg')}}" alt=" " class="img-responsive" />
+                    <h3>Bishop Dr. Captain Mulehi</h3>
+                    <p>Leader-Men’s Ministry and Bishop Kakamega Region</p>
+                    <div class="team_icons">
+                        <ul>
+                            <li><a href="https://www.facebook.com/profile.php?id=100010533398447" target="-blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 team_grid_info">
+                    <img src="{{ asset('images/webimgs/pastors/uploads/silas.jpg')}}" alt=" " class="img-responsive" />
+                    <h3>Bishop Silas Ombori</h3>
+                    <p>Head of Missions and Church planting and Bishop Sindo Region</p>
+                    <div class="team_icons">
+                        <ul>
+                            <li><a href="#" target="-blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="inner_sec_info_wthree_agile">
+                <div class="col-md-3 team_grid_info">
                     <img src="{{ asset('images/webimgs/pastors/bishop_mr_and_mrs_wamalwa.jpg')}}" alt=" " class="img-responsive" />
-                    <h3>Bishop MR. and MRS. Wamalwa</h3>
-                    <p>--</p>
+                    <h3>Bishop Dr. Joram Wamalwa</h3>
+                    <p>Bishop- Tranzoia Region </p>
                     <div class="team_icons">
                         <ul>
                             <li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

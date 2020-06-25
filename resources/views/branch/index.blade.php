@@ -34,9 +34,6 @@
                   <tr>
                     <th>Id</th>
                     <th>Name</th>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                     <th>Email</th>
                     <th>Telephone</th>
                     <th>Address</th>
@@ -44,21 +41,6 @@
                     <th>Description</th>
                     <th>Mission</th>
                     <th>Vision</th>
-=======
-                    <th>Head Pastor</th>
-                    <th>Description</th>
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
-                    <th>Email</th>
-                    <th>Telephone</th>
-                    <th>Address</th>
-<<<<<<< HEAD
-                    <th>Head Pastor</th>
-                    <th>Description</th>
-                    <th>Mission</th>
-                    <th>Vision</th>
-=======
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
                     <th>Action</th>
                   </tr>
                   </thead>
@@ -67,9 +49,6 @@
                     <tr>
                         <td class="text-center">{{ $branch->id }}</td>
                         <td class="text-center">{{$branch->name}}</td>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                         <td class="text-center">{{ $branch->email }}</td>
                         <td class="text-center">{{$branch->tel}}</td>
                        <td class="text-center">{{ $branch->address }}</td>
@@ -85,31 +64,6 @@
                     <td class="text-center">{{$branch->vision}}</td>
                         <td><a href="{{ route('branches.edit', [$branch->id]) }}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
                             <a rel="{{$branch->id}}" rel1="destroy" href="javascript:" class="btn btn-danger btn-sm deleteBranch">Delete <i class="icon icon-trash"></i></a></td>
-=======
-                        <td class="text-center">{{ $branch->leader }}</td>
-                        <td class="text-center">{{ $branch->description }}</td>
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
-                        <td class="text-center">{{ $branch->email }}</td>
-                        <td class="text-center">{{$branch->tel}}</td>
-                       <td class="text-center">{{ $branch->address }}</td>
-<<<<<<< HEAD
-                       <td class="text-center">
-                        @foreach($head_pastors as $head_pastor)
-                        @if ($branch->leader == $head_pastor->id)
-                        {{ $head_pastor->title. " ". $head_pastor->name }}  
-                        </td>  
-                        @endif
-                        @endforeach
-                        <td class="text-center">{!! $branch->description !!}</td>
-                        <td class="text-center">{{$branch->mission}}</td>
-                    <td class="text-center">{{$branch->vision}}</td>
-                        <td><a href="{{ route('branches.edit', [$branch->id]) }}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
-                            <a rel="{{$branch->id}}" rel1="destroy" href="javascript:" class="btn btn-danger btn-sm deleteBranch">Delete <i class="icon icon-trash"></i></a></td>
-=======
-                        <td><a href="{{url('admin/user/edit/'.$branch->id)}}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
-                            <a rel="{{$branch->id}}" rel1="delete" href="javascript:" class="btn btn-danger btn-sm deleteUser">Delete <i class="icon icon-trash"></i></a></td>
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
                     </tr>
                     @endforeach
                   </tbody>
@@ -117,9 +71,6 @@
                   <tr>
                     <th>Id</th>
                     <th>Name</th>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
                     <th>Email</th>
                     <th>Telephone</th>
                     <th>Address</th>
@@ -127,21 +78,6 @@
                     <th>Description</th>
                     <th>Mission</th>
                     <th>Vision</th>
-=======
-                    <th>Head Pastor</th>
-                    <th>Description</th>
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
-                    <th>Email</th>
-                    <th>Telephone</th>
-                    <th>Address</th>
-<<<<<<< HEAD
-                    <th>Head Pastor</th>
-                    <th>Description</th>
-                    <th>Mission</th>
-                    <th>Vision</th>
-=======
->>>>>>> a1e83c677355f459c91f73aad871022140866511
->>>>>>> 2b8e1d0fc60b6da5afe17b7b19a242725c3a9256
                     <th>Action</th>
                   </tr>
                   </tfoot>
