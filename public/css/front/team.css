@@ -89,9 +89,6 @@ ul.team_icons li {
 @media (max-width:991px) {
 	.team_grid_info:nth-child(1),
 	.team_grid_info:nth-child(3),
-	.team_grid_info:nth-child(4),
-	.team_grid_info:nth-child(2),
-	.team_grid_info:nth-child(6),
 	.team_grid_info:nth-child(5) {
 		margin-top: 0em;
 	}

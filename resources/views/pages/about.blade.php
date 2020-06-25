@@ -162,6 +162,7 @@
                     </div>
                 </div>
             </div>
+            <div class="clearfix"></div>
             <div class="inner_sec_info_wthree_agile">
                 <div class="col-md-3 team_grid_info">
                     <img src="{{ asset('images/webimgs/pastors/bishop_mangeni.jpg') }}" alt=" " class="img-responsive" />
@@ -188,7 +189,7 @@
                 <div class="col-md-3 team_grid_info">
                     <img src="{{ asset('images/webimgs/pastors/uploads/captain.jpg')}}" alt=" " class="img-responsive" />
                     <h3>Bishop Dr. Captain Mulehi</h3>
-                    <p>Leader-Men’s Ministry and Bishop Kakamega Region</p>
+                    <p>Leader-Men&#39;s Ministry and Bishop Kakamega Region</p>
                     <div class="team_icons">
                         <ul>
                             <li><a href="https://www.facebook.com/profile.php?id=100010533398447" target="-blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -234,7 +235,7 @@
                     <ol type="A">
                         <li>To carry out missionary work of spreading the Gospel of Jesus Christ, training and developing Christians to fulfill their calling to serve God 
                             effectively in collaboration with other churches and agencies. </li>
-                        <li>To plant and establish dynamic local churches which shall be referred to as Christ’s Evangelistic Church (CEC) and they shall be self supporting, 
+                        <li>To plant and establish dynamic local churches which shall be referred to as Christ&#39;s Evangelistic Church (CEC) and they shall be self supporting, 
                             self-governing and self-propagating. </li>
                         <li>To establish and administer Christian Educational institutions, hospitals, Care for the orphaned children, widowed, persons with disability, 
                             senior citizens and other social welfare institutions. </li>
@@ -263,7 +264,7 @@
             <div class="help_full">
                     <ol type="A">
                         <li>We believe the Bible is the inspired Word of God, the infallible, authoritative rule of faith and conduct; that it was written by Holy men of 
-                            God as they were inspired by the Holy Spirit <code>(2 Timothy 2:15; 3:16-17, 2 Peter 1:21)</code>.</li>
+                            God as they were inspired by the Holy Spirit <code>(2 Timothy 2:15&#59; 3:16-17, 2 Peter 1:21)</code>.</li>
                         <li>We believe that there is one true and living God, eternally existent in three persons; God the Father, God the son, and God the Holy Spirit
                             <code> (Genesis 1:1, John 1:14,18, 2Corinthians 13:14)</code>.</li>
                         <li>We believe in the deity and humanity of our Lord Jesus Christ, His virgin birth, His sinless life, His crucifixion, His bodily resurrection, 
@@ -272,30 +273,30 @@
                             redemption (Salvation) is through Jesus Christ, the son of God <code>(Genesis 1:26,31, Romans 5:12-19, 10:9-15, Eph. 2:8, Hebrews 9:22)</code>.</li>
                         <li>We believe in water baptism by immersion as commanded in the scripture to all who have repented and believed in the Lord Jesus Christ <code>
                             (Matthew 28:19, Mark 1:9-10; 16:16, John 3:22-23, Acts 8:12, 36-38)</code>.</li>
-                        <li>We believe in the institution of the Lord’s Supper (Holy Communion) performed in remembrance of Jesus Christ <code>(1 Cor. 11: 23-31, Luke 22:19-20,
+                        <li>We believe in the institution of the Lord&#39;s Supper (Holy Communion) performed in remembrance of Jesus Christ <code>(1 Cor. 11: 23-31, Luke 22:19-20,
                              Mathew 26:26-28)</code>.</li>
                         <li>We believe that the baptism of the Holy Spirit is a definite experience subsequent to the new birth. The endowment of power is expected after the 
-                            same manner as that which came upon the Jews and Gentiles alike in Apostolic days <code>(Matthew 3:11, John 14:17-18, Acts 1:4,8, Acts 2:4;10:44-46)</code>.</li>
-                        <li>We believe divine healing and miracles are an integral part of the gospel, as proof that God exists and that the Bible is God’s Word <code>(Isaiah 53:4-5, 
-                            Matt. 8.16-17, James 5:14-16, Acts 5:15, Luke 7:14-15)</code>.</li>
+                            same manner as that which came upon the Jews and Gentiles alike in Apostolic days <code>(Matthew 3:11, John 14:17-18, Acts 1:4,8, Acts 2:4;10:44&#45;46)</code>.</li>
+                        <li>We believe divine healing and miracles are an integral part of the gospel, as proof that God exists and that the Bible is God&#39;s Word <code>(Isaiah 53:4-5, 
+                            Matt. 8.16&#45;17, James 5:14&#45;16, Acts 5:15, Luke 7:14&#45;15)</code>.</li>
                         <li>We believe that Heaven is a reality, a place prepared for all those that believe upon the Lord Jesus Christ; <code>(John 14:2, Revelation 7:14-17; 22:4-5)</code>.</li>
                         <li>We believe that Hell is a reality, a place prepared for the devil and his angels and all those who have rejected the mercy of the crucified savior. They shall be 
-                            cast into outer darkness, where there shall be weeping and gnashing of teeth. <code>(Mathew 13:41-42; 25:41, Luke 16:23, 2 Thess. 1:19, 2 Peter 2:4, Rev. 20:10-15)</code>.</li>
+                            cast into outer darkness, where there shall be weeping and gnashing of teeth. <code>(Mathew 13:41&#45;42; 25:41, Luke 16:23, 2 Thess. 1:19, 2 Peter 2:4, Rev. 20:10-15)</code>.</li>
                         <li>We believe that the church is the Body of Christ and that every believer born of the Spirit is a member of that body <code>(Eph. 5:23, 26, 32, 
-                            Eph. 4:15-16, 1 Corinthians 12:13)</code>.</li>
-                        <li>We believe that the church has a divine mission of fulfilling the Great Commission through worship of God <code>(John 4:23–24) </code> of the 
-                            saints (Eph.4:11–16) and world evangelization <code>(Matt.28:19-20, Mark 16:15-20)</code>.</li> 
+                            Eph. 4:15&#45;16, 1 Corinthians 12:13)</code>.</li>
+                        <li>We believe that the church has a divine mission of fulfilling the Great Commission through worship of God <code>(John 4:23&#45;24) </code> of the 
+                            saints (Eph.4:11&#45;16) and world evangelization <code>(Matt.28:19-20, Mark 16:15&#45;20)</code>.</li> 
                         <li>We believe marriage is sacred, a natural and divine institution sanctioned by God between two adult persons of the opposite sex.  Any conjugal 
-                            expression outside marriage is sinful and contrary to the purpose of God <code>(Gen.2:24, Mk.10:6-9, Eph.5:21–33, Lev.18:22, Rom.1:27)</code></li>
+                            expression outside marriage is sinful and contrary to the purpose of God <code>(Gen.2:24, Mk.10:6&#45;9, Eph.5:21&#45;33, Lev.18:22, Rom.1:27)</code></li>
                         <li>We believe on Sanctity of life, we believe the life of a person begins at conception (<code>Jer.1:5)</code> until death by natural causes. Every 
                             person has a right to life, and that any decision to terminate life by abortion, murder or euthanasia (mercy killing) for personal convenience or 
-                            population control is contrary to God’s Word <code>“Thou shall not kill” Ex. 20:13.</code>  Any decision to terminate life because the life of the 
+                            population control is contrary to God&#39;s Word <code>&#34;Thou shall not kill&#34; Ex. 20:13.</code>  Any decision to terminate life because the life of the 
                             mother is endangered during pregnancy shall be made only on basis of adequate medical determination by a qualified Medical doctor(s) and spiritual 
                             counseling. We believe no life shall be taken away either by acts of mercy killing (euthanasia) or such other procedures.</li>
-                        <li>We believe on the guidelines for judging questionable ethical areas, which the Bible does not have a clear word – “Thou shalt not ….” e.g. use of 
+                        <li>We believe on the guidelines for judging questionable ethical areas, which the Bible does not have a clear word &#45; &#34;Thou shalt not &#46;&#46;&#46; &#46;&#34; e.g. use of 
                             substance abuse, dress code, choice of places of employment, we believe a Christian shall have a conviction about what he/she does. He/she shall 
                             use conscience informed by biblical scripture in judging what is right or wrong, and consideration, if other people are adversely affected by what 
-                            he/she does <code>(Rom.14:1-15:7)</code>.</li>                        
+                            he/she does <code>(Rom.14:1&#45;15:7)</code>.</li>                        
                     </ol>
                 <div class="clearfix"></div>
         </div>

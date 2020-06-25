@@ -13,11 +13,11 @@
 			<div class="item active">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>Christ’s Evangelistic Church</h3>
+						<h3>Christ&#39;s Evangelistic Church</h3>
 						<p>We are the Light of the World</p>
 						<div class="top-buttons">
 							<div class="bnr-button">
-								<a class="act" href="single.html">Read More</a>
+								<a class="act" href="{{ route('about_us') }}">Read More</a>
 							</div>
 							<div class="bnr-button">
 								<a href="{{ route('members.create') }}" class="two scroll ">Join Us</a>
@@ -31,12 +31,12 @@
 				<div class="container">
 					<div class="carousel-caption">
 						<h3>Bible based</h3>
-						<p>Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the 
+						<p>&#34;Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the 
               Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end 
-              of the age” (Matthew 28:18-20)</p>
+              of the age&#34; (Matthew 28:18-20)</p>
 						<div class="top-buttons">
 							<div class="bnr-button">
-								<a class="act" href="single.html">Read More</a>
+								<a class="act" href="{{ route('about_us') }}">Read More</a>
 							</div>
 							<div class="bnr-button">
 								<a href="{{ route('members.create') }}" class="two scroll ">Join Us</a>
@@ -53,7 +53,7 @@
 						<p>Christ is the the only way through which one can be saved and Therefore on Him alone we base our beliefs</p>
 						<div class="top-buttons">
 							<div class="bnr-button">
-								<a class="act" href="single.html">Read More</a>
+								<a class="act" href="{{ route('about_us') }}">Read More</a>
 							</div>
 							<div class="bnr-button">
 								<a href="{{ route('members.create') }}" class="two scroll ">Join Us</a>
@@ -72,7 +72,7 @@
 						<p>---</p>
 						<div class="top-buttons">
 							<div class="bnr-button">
-								<a class="act" href="single.html">Read More</a>
+								<a class="act" href="{{ route('about_us') }}">Read More</a>
 							</div>
 							<div class="bnr-button">
 								<a href="{{ route('members.create') }}" class="two scroll ">Join Us</a>
@@ -93,7 +93,60 @@
 		</a>
 		<!-- The Modal -->
 	</div>
-	<!--//banner -->
+  <!--//banner -->
+  <div class="banner_bottom">
+    <div class="container-fluid">
+      <h3 class="title_w3ls text-center">WELCOME TO CHRIST&#39;s EVANGELISTIC CHURCH (CEC)</h3>
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-3 card bg-light">
+            <a href="#">
+              <div class="card-body">
+                <div class="myth-item-image"><img width="300" height="200" src="{{ asset('images/webimgs/pastors/uploads/kephar.jpg') }}" class="image-inner attachment-full" alt="" srcset="{{ asset('images/webimgs/pastors/uploads/kephar.jpg') }} 300w, {{ asset('images/webimgs/pastors/uploads/kephar.jpg') }} 82w, {{ asset('images/webimgs/pastors/uploads/kephar.jpg') }} 156w" sizes="(max-width: 300px) 100vw, 300px"></div>
+                <div class="myth-item-main-divider-color" style="background-color: #890404"></div>
+                <div class="myth-item-content">
+                  <h3 class="myth-item-title">Message from the Preciding Bishop</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 card bg-light">
+            <a href="#">
+              <div class="card-body">
+                <div class="myth-item-image"><img width="300" height="200" src="{{ asset('images/webimgs/pastors/uploads/ombori.jpg') }}" class="image-inner attachment-full" alt="" srcset="{{ asset('images/webimgs/pastors/uploads/ombori.jpg') }} 300w, {{ asset('images/webimgs/pastors/uploads/ombori.jpg') }} 82w, {{ asset('images/webimgs/pastors/uploads/ombori.jpg') }} 156w" sizes="(max-width: 300px) 100vw, 300px"></div>
+                <div class="myth-item-main-divider-color" style="background-color: #890404"></div>
+                <div class="myth-item-content">
+                  <h3 class="myth-item-title">Message from the Deputy Preciding Bishop</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 card bg-light">
+            <a href="#">
+              <div class="card-body">
+                <div class="myth-item-image"><img width="300" height="200" src="{{ asset('images/webimgs/locations.png') }}" class="image-inner attachment-full" alt="" srcset="{{ asset('images/webimgs/locations.png') }} 300w, {{ asset('images/webimgs/locations.png') }} 82w, {{ asset('images/webimgs/locations.png') }} 156w" sizes="(max-width: 300px) 100vw, 300px"></div>
+                <div class="myth-item-main-divider-color" style="background-color: #890404"></div>
+                <div class="myth-item-content">
+                  <h3 class="myth-item-title">Church Locations</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 card bg-light">
+            <a href="#">
+              <div class="card-body">
+                <div class="myth-item-image"><img width="300" height="200" src="{{ asset('images/webimgs/serve.jpg') }}" class="image-inner attachment-full" alt="" srcset="{{ asset('images/webimgs/serve.jpg') }} 300w, {{ asset('images/webimgs/serve.jpg') }} 82w, {{ asset('images/webimgs/serve.jpg') }} 156w" sizes="(max-width: 300px) 100vw, 300px"></div>
+                <div class="myth-item-main-divider-color" style="background-color: #890404"></div>
+                <div class="myth-item-content">
+                  <h3 class="myth-item-title">Serve</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 <!--/ab-->
 <div class="banner_bottom">
   <div class="container">
@@ -109,39 +162,9 @@
             <code>&#34;Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the 
               Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end 
               of the age&#34; (Matthew 28:18-20)</code> mandated by Jesus Christ. </p>
-              <h4>Our Vision</h4>
-              <p>To see people evangelized, discipled, equipped, empowered and serving God faithfully.</p>
           <div class="ab_button">
             <a class="btn btn-primary btn-lg hvr-underline-from-left" href="{{ route('about_us') }}" role="button">Read More </a>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container jumbotron">
-    <h4 class="tittle-w3ls text-center">Message From The Preciding Bishop</h4>
-    <div class="inner_sec_info_wthree_agile">
-      <div class="help_full">
-        <div class="col-md-4 banner_bottom_grid help">
-          <img src="{{ asset('images/webimgs/pastors/uploads/kephar.jpg') }}" alt=" " class="img-responsive">
-        </div>
-        <div class="col-md-8 banner_bottom_left">
-          <h4>Bishop Kephar</h4>
-          <p>-</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container jumbotron">
-    <h4 class="tittle-w3ls text-center">Message From The Deputy Preciding Bishop</h4>
-    <div class="inner_sec_info_wthree_agile">
-      <div class="help_full">
-        <div class="col-md-4 banner_bottom_grid help">
-          <img src="{{ asset('images/webimgs/pastors/uploads/ombori.jpg') }}" alt=" " class="img-responsive">
-        </div>
-        <div class="col-md-8 banner_bottom_left">
-          <h4>Bishop Ombori</h4>
-          <p>-</p>
         </div>
       </div>
     </div>
