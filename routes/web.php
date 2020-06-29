@@ -27,6 +27,7 @@ Route::resource('/posts','PostsController');
 Route::resource('/branches', 'BranchController');
 Route::resource('/ministries', 'MinistriesController');
 Route::resource('/roles', 'RolesController');
+Route::resource('/presiding/bishop/message','BishopMessageController');
 
 Auth::routes();
 

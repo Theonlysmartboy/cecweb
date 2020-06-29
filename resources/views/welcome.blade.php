@@ -100,23 +100,23 @@
       <div class="jumbotron">
         <div class="row">
           <div class="col-md-3 card bg-light">
-            <a href="#">
+            <a href="{{ route('message.show', [1]) }}">
               <div class="card-body">
                 <div class="myth-item-image"><img width="300" height="200" src="{{ asset('images/webimgs/pastors/uploads/kephar.jpg') }}" class="image-inner attachment-full" alt="" srcset="{{ asset('images/webimgs/pastors/uploads/kephar.jpg') }} 300w, {{ asset('images/webimgs/pastors/uploads/kephar.jpg') }} 82w, {{ asset('images/webimgs/pastors/uploads/kephar.jpg') }} 156w" sizes="(max-width: 300px) 100vw, 300px"></div>
                 <div class="myth-item-main-divider-color" style="background-color: #890404"></div>
                 <div class="myth-item-content">
-                  <h3 class="myth-item-title">Message from the Preciding Bishop</h3>
+                  <h3 class="myth-item-title">Message from the Presiding Bishop</h3>
                 </div>
               </div>
             </a>
           </div>
           <div class="col-md-3 card bg-light">
-            <a href="#">
+            <a href="{{ route('message.show', [2]) }}">
               <div class="card-body">
                 <div class="myth-item-image"><img width="300" height="200" src="{{ asset('images/webimgs/pastors/uploads/ombori.jpg') }}" class="image-inner attachment-full" alt="" srcset="{{ asset('images/webimgs/pastors/uploads/ombori.jpg') }} 300w, {{ asset('images/webimgs/pastors/uploads/ombori.jpg') }} 82w, {{ asset('images/webimgs/pastors/uploads/ombori.jpg') }} 156w" sizes="(max-width: 300px) 100vw, 300px"></div>
                 <div class="myth-item-main-divider-color" style="background-color: #890404"></div>
                 <div class="myth-item-content">
-                  <h3 class="myth-item-title">Message from the Deputy Preciding Bishop</h3>
+                  <h3 class="myth-item-title">Message from the Deputy Presiding Bishop</h3>
                 </div>
               </div>
             </a>
