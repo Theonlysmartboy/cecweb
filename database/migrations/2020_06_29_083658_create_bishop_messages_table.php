@@ -15,7 +15,13 @@ class CreateBishopMessagesTable extends Migration
     {
         Schema::create('bishop_messages', function (Blueprint $table) {
             $table->id();
+            $table->string('title', 100);
+            $table->string('name', 100);
+            $table->string('avatar', 100);
+            $table->$table->longText('text_message');
+            $table->string('video_message', 100)->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

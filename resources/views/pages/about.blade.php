@@ -7,7 +7,7 @@
     <div class="inner_breadcrumb">
 
         <ul class="short">
-            <li><a href="index.html">Home</a><span>|</span></li>
+            <li><a href="{{ route('index') }}">Home</a><span>|</span></li>
             <li>About</li>
         </ul>
     </div>

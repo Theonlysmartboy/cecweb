@@ -65,9 +65,11 @@ class LeadersController extends Controller
                      if ($image_temp->isValid()) {
                          $extension = $image_temp->getClientOriginalExtension();
                          $filename = mt_rand(000, 9999999999) . '.' . $extension;
-                         $filepath = public_path().'/images/webimgs/pastors/uploads/' . $filename;
+                         $small_filepath = public_path().'/images/webimgs/pastors/uploads/small/' . $filename;
+                         $large_filepath = public_path().'/images/webimgs/pastors/uploads/' . $filename;
                          //upload the image
-                         Image::make($image_temp)->resize(100, 100)->save($filepath);
+                         Image::make($image_temp)->resize(100, 100)->save($small_filepath);
+                         Image::make($image_temp)->resize(5184,3456)->save($large_filepath);
                          $leader->avatar = $filename;
                      }
                  }
@@ -135,15 +137,25 @@ class LeadersController extends Controller
             if ($image_temp->isValid()) {
                 $extension = $image_temp->getClientOriginalExtension();
                 $filename = rand(000, 9999999999) . '.' . $extension;
-                $image_path = public_path().'/images/webimgs/pastors/uploads/' . $filename;
+                $small_image_path = public_path().'/images/webimgs/pastors/uploads/small/' . $filename;
+                $large_image_path = public_path().'/images/webimgs/pastors/uploads/' . $filename;
                 //Resize and upload images
-                Image::make($image_temp)->resize(100,100)->save($image_path);
+                Image::make($image_temp)->resize(100,100)->save($small_image_path);
+                Image::make($image_temp)->resize(5184,3456)->save($large_image_path);
                 $leader = Leader::where(['id' => $id])->first();
                 //Get leader image paths
-                $image_path = public_path().'/images/webimgs/pastors/uploads/';
-                //Delete the image if exists
-                if (file_exists($image_path . $leader->avatar)) {
-                    unlink($image_path . $leader->avatar);
+                $image_path = public_path().'/images/webimgs/pastors/uploads/small/';
+                $large_image_path = public_path().'/images/webimgs/pastors/uploads/';
+                  //check if user had previously uploaded an image
+                  if($leader->image !=null || $leader->image!=""){
+                    //Delete the image if exists
+                    if (file_exists($image_path . $leader->image)) {
+                        unlink($image_path . $leader->image);
+                    }
+                    //Delete the large image too
+                    if (file_exists($large_image_path . $leader->image)) {
+                        unlink($large_image_path . $leader->image);
+                    }
                 }
             }
         } else {
@@ -167,12 +179,20 @@ class LeadersController extends Controller
             if (!empty($id)) {
                 //get the particular restaurant form the db
                 $leader = Leader::where(['id' => $id])->first();
-                //Get image path
-                $image_path = public_path().'/images/webimgs/pastors/uploads/';
-                //Delete the image if it exists
-                if (file_exists($image_path . $leader->avatar)) {
-                    unlink($image_path . $leader->avatar);
-                }
+              //Get leader image paths
+              $image_path = public_path().'/images/webimgs/pastors/uploads/small/';
+              $large_image_path = public_path().'/images/webimgs/pastors/uploads/';
+                //check if user had previously uploaded an image
+                if($leader->image !=null || $leader->image!=""){
+                  //Delete the image if exists
+                  if (file_exists($image_path . $leader->image)) {
+                      unlink($image_path . $leader->image);
+                  }
+                  //Delete the large image too
+                  if (file_exists($large_image_path . $leader->image)) {
+                      unlink($large_image_path . $leader->image);
+                  }
+              }
                 Leader::where(['id' => $id])->delete();
                 return redirect()->back()->with('flash_message_success', 'Leader Deleted Successfully');
             }

@@ -117,6 +117,14 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="{{ route('message.index') }}" class="nav-link @if(Request::is('bishop/*')) active @endif @if(Route::current()->getName() == 'posts.index') active @endif">
+              <i class="nav-icon far fa-image"></i>
+              <p>
+              Bishop&#39;s Message
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="{{ route('posts.index') }}" class="nav-link @if(Request::is('posts/*')) active @endif @if(Route::current()->getName() == 'posts.index') active @endif">
               <i class="nav-icon far fa-image"></i>
               <p>
