@@ -14,8 +14,7 @@ class LeadersController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
+    public function index(){
         if (Session::has('adminSession')) {
             $title = "CEC | Leaders";
             $leaders = Leader::get();
@@ -31,8 +30,7 @@ class LeadersController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
+    public function create() {
         if (Session::has('adminSession')) {
             $title = "CEC | Leaders | Add" ;
             return view('leader.create')->with(compact('title'));
@@ -48,8 +46,7 @@ class LeadersController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
+    public function store(Request $request){
         //User must be admin to add
         if (Session::has('adminSession')) {
              //Get all post data
@@ -61,7 +58,6 @@ class LeadersController extends Controller
              if (!empty($data['l_image'])) {
                  if ($request->hasFile('l_image')) {
                      $image_temp = $request->file('l_image');
-                     //echo $image_temp; die;
                      if ($image_temp->isValid()) {
                          $extension = $image_temp->getClientOriginalExtension();
                          $filename = mt_rand(000, 9999999999) . '.' . $extension;
@@ -80,10 +76,9 @@ class LeadersController extends Controller
              $leader->address = $data['l_address'];
              $leader->smedia = $data['l_media'];
              $leader->save();
-             return redirect()->back()->with('flash_message_success', 'leader successfuly added');
-            
+             return redirect()->back()->with('flash_message_success', 'leader successfuly added');    
     }
-    // if not return back to where it is from
+        // if not return back to where it is from
     else{
         return redirect()->back()->with('flash_message_error', 'Access denied!');
     }
@@ -106,8 +101,7 @@ class LeadersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
-    {
+    public function edit($id){
         if(Session::has('adminSession')){
             $title = "CEC | Edit Leader Details";
             //Get the current leader details

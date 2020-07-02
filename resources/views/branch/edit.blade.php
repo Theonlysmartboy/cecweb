@@ -91,7 +91,7 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Pastor's Message</label>
-                                    <textarea class="textarea" placeholder="Place some text here" name="ch_pst_msg" value="{!!$branchDetails->pst_message!!}"
+                                    <textarea class="textarea" placeholder="Place some text here" name="ch_pst_msg" 
                           style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">{!!$branchDetails->pst_message!!}</textarea>
                                 </div>
                             </div>
@@ -99,7 +99,7 @@
                                 <!-- text input -->
                                 <div class="form-group">
                                     <label>Church Page Content</label>
-                                    <textarea class="textarea" placeholder="Place some text here" name="ch_desc" value="{!!$branchDetails->description!!}"
+                                    <textarea class="textarea" placeholder="Place some text here" name="ch_desc"
                           style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">{!!$branchDetails->description!!}</textarea>
                                 </div>
                             </div>
