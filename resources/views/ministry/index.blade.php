@@ -53,10 +53,10 @@
                         <td class="text-center">{{ $ministry->email }}</td>
                         <td class="text-center">{{$ministry->tel}}</td>
                        <td class="text-center">{{ $ministry->address }}</td>
-                        <td class="text-center">{!! $ministry->description !!}</td>
+                        <td class="text-center">{!!\Illuminate\Support\Str::limit($ministry->description, 300, $end='...') !!}</td>
                         <td class="text-center">{{$ministry->mission}}</td>
                     <td class="text-center">{{$ministry->vision}}</td>
-                    <td class="text-center">{!! $ministry->objectives !!}</td>
+                    <td class="text-center">{!!\Illuminate\Support\Str::limit($ministry->objectives, 300, $end='...') !!}</td>
                     <td class="text-center"><img src="{{ asset('/images/webimgs/ministries/uploads/'.$ministry->emblem) }}"/></td>
                         <td><a href="{{ route('ministries.edit', [$ministry->id]) }}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 
                             <a rel="{{$ministry->id}}" rel1="destroy" href="javascript:" class="btn btn-danger btn-sm deleteMinistry">Delete <i class="icon icon-trash"></i></a></td>

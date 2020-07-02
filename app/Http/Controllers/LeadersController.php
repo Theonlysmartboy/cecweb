@@ -128,8 +128,8 @@ class LeadersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
+    public function update(Request $request, $id)   {
+        if(Session::has('adminSession')){
         $data = $request->all();
         //upload image
         if ($request->hasFile('l_image')) {
@@ -165,7 +165,11 @@ class LeadersController extends Controller
             'avatar' => $filename, 'bio' => $data['l_bio'], 'email' => $data['l_mail'], 'tel' => $data['l_tel'],
             'address' => $data['l_address'],'smedia' => $data['l_media'],]);
             return redirect('leaders/')->with('flash_message_success', 'Leader details updated Successfully');
-    }
+    }else{
+        return redirect()->back()->with('flash_message_error', 'Access denied!!');
+}
+
+}
 
     /**
      * Remove the specified resource from storage.

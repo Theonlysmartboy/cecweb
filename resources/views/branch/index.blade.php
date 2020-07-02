@@ -38,6 +38,7 @@
                     <th>Telephone</th>
                     <th>Address</th>
                     <th>Head Pastor</th>
+                    <th>Head Pastror&#39;s Message</th>
                     <th>Description</th>
                     <th>Mission</th>
                     <th>Vision</th>
@@ -59,7 +60,8 @@
                         </td>  
                         @endif
                         @endforeach
-                        <td class="text-center">{!! $branch->description !!}</td>
+                        <td>{!!\Illuminate\Support\Str::limit($branch->pst_message, 300, $end='...') !!}</td>
+                        <td class="text-center">{!! \Illuminate\Support\Str::limit($branch->description, 300, $end='...') !!}</td>
                         <td class="text-center">{{$branch->mission}}</td>
                     <td class="text-center">{{$branch->vision}}</td>
                         <td><a href="{{ route('branches.edit', [$branch->id]) }}" class="btn btn-warning btn-sm">Edit <i class="icon icon-edit"></i></a> | 

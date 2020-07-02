@@ -86,7 +86,7 @@
             <!-- feature item -->
             <div class="feature-item">
               <!-- icon -->
-              <img class="img-circle" src="{{ asset('images/webimgs/pastors/uploads/'.$head_pastor->avatar) }}">
+              <img class="img-circle" src="{{ asset('images/webimgs/pastors/uploads/small/'.$head_pastor->avatar) }}">
               <!-- heading -->
             <h4>{{$head_pastor->title}}</h4>
               <!-- paragraph -->

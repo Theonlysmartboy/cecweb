@@ -47,7 +47,7 @@
                         <td class="text-center">{{ $message->id }}</td>
                         <td class="text-center">{{$message->title." " .$message->name}}</td>
                         <td class="text-center"><img src="{{ asset('/images/webimgs/pastors/uploads/small/'.$message->avatar) }}"/></td>
-                        <td class="text-center">{{$message->text_message}}</td>
+                        <td class="text-center">{!!\Illuminate\Support\Str::limit($message->text_message, 300, $end='...')!!}</td>
                        <td class="text-center">{{ $message->video_message }}</td>
                        <td class="text-center">
                         @if ($message->status == 1)

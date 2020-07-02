@@ -51,7 +51,7 @@
                         <td class="text-center">{{$leader->title}}</td>
                         <td class="text-center">{{$leader->name}}</td>
                         <td class="text-center"><img src="{{ asset('/images/webimgs/pastors/uploads/small/'.$leader->avatar) }}"/></td>
-                        <td class="text-center">{!! $leader->bio!!}</td>
+                        <td class="text-center">{!! \Illuminate\Support\Str::limit($leader->bio, 300, $end='...')!!}</td>
                         <td class="text-center">{{ $leader->email }}</td>
                         <td class="text-center">{{ $leader->tel }}</td>
                        <td class="text-center">{{ $leader->address }}</td>
