@@ -102,7 +102,8 @@
           <div class="col-md-3 card bg-light">
             <a href="{{ route('message.show', [1]) }}">
               <div class="card-body">
-                <div class="myth-item-image"><img width="300" height="200" src="{{ asset('images/webimgs/pastors/uploads/kephar.jpg') }}" class="image-inner attachment-full" alt="" srcset="{{ asset('images/webimgs/pastors/uploads/kephar.jpg') }} 300w, {{ asset('images/webimgs/pastors/uploads/kephar.jpg') }} 82w, {{ asset('images/webimgs/pastors/uploads/kephar.jpg') }} 156w" sizes="(max-width: 300px) 100vw, 300px"></div>
+                <div class="myth-item-image">
+                  <img width="300" height="200" src="{{ asset('images/webimgs/pastors/uploads/kephar.jpg') }}" class="image-inner attachment-full" alt="" srcset="{{ asset('images/webimgs/pastors/uploads/kephar.jpg') }} 300w, {{ asset('images/webimgs/pastors/uploads/kephar.jpg') }} 82w, {{ asset('images/webimgs/pastors/uploads/kephar.jpg') }} 156w" sizes="(max-width: 300px) 100vw, 300px"></div>
                 <div class="myth-item-main-divider-color" style="background-color: #890404"></div>
                 <div class="myth-item-content">
                   <h3 class="myth-item-title">Message from the Presiding Bishop</h3>
@@ -154,7 +155,7 @@
     <div class="inner_sec_info_wthree_agile">
       <div class="help_full">
         <div class="col-md-6 banner_bottom_grid help">
-          <img src="{{ asset('images/webimgs/banner1.jpg') }}" alt=" " class="img-responsive">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tLpqVkKSRrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="col-md-6 banner_bottom_left">
           <h4>Christ&#39;s Evangelistic Church (CEC)</h4>
@@ -250,24 +251,26 @@
         </li>
       </ul>
       <ul class="portfolio-area">
-        <li class="portfolio-item2" data-id="id-1" data-type="cat-item-2">
+        <li class="portfolio-item2" data-id="id-1" data-type="cat-item-1">
+          <div>
+            <p class="card-text">Praise Church. We shall be having bishops wives, pastors wives and women pastors workshops  per region... </p>
+          <a href="{{ route('posts.index') }}" class="btn btn-primary">Read More</a>
+          <p class="text-disabled">15<sup>th</sup>Aug 2020: By Admin</p>
+                </div>
+          </div>
+          </a>
+        </span>
+        </div>
+        </div>
+        </li>
+    
+        <li class="portfolio-item2" data-id="id-4" data-type="cat-item-3" style="display: none">
           
         </li>
-        <li class="portfolio-item2" data-id="id-2" data-type="cat-item-1">
+        <li class="portfolio-item2" data-id="id-5" data-type="cat-item-2"  style="display: none">
          
         </li>
-        <li class="portfolio-item2" data-id="id-4" data-type="cat-item-3">
-          
-        </li>
-        <li class="portfolio-item2" data-id="id-5" data-type="cat-item-2">
-         
-        </li>
-        <li class="portfolio-item2" data-id="id-6" data-type="cat-item-1">
-          
-        </li>
-        <li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
-         
-        </li>
+        
         <div class="clearfix"></div>
       </ul>
       <!--end portfolio-area -->

@@ -37,8 +37,24 @@
 									@endforeach
 								</ul>
 							</li>
+							<li class="dropdown @if(Request::is('education/*')) active @endif">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Education <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Bible School</a></li>
+									<li><a href="#">Training </a></li>
+								</ul>
+							</li>
+							<li class="dropdown @if(Request::is('resources/*')) active @endif">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Teenagers</a></li>
+									<li><a href="#">Sunday School curriculum</a></li>
+									<li><a href="#">Youth curriculum</a></li>
+									<li><a href="#">Conference Sermons</a></li>
+								</ul>
+							</li>
 							<li class="@if(Route::current()->getName() == 'gallery.index') active @endif"><a href="{{ route('gallery.index') }}">Gallery</a></li>
-							<li class="@if(Route::current()->getName() == 'news.index') active @endif"><a href="{{ route('news.index') }}">Posts</a></li>
+							<li class="@if(Route::current()->getName() == 'posts.index') active @endif"><a href="{{ route('posts.index') }}">Announcements</a></li>
 							<li class="@if(Route::current()->getName() == 'contact_us') active @endif"><a href="{{ route('contact_us') }}">Contact Us</a></li>
 						</ul>
 					</div>

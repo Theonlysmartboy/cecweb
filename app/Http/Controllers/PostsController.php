@@ -8,6 +8,9 @@ use App\Category;
 use App\Post;
 use Auth;
 use Image;
+use App\Leader;
+use App\Ministry;
+use App\Branch;
 
 class PostsController extends Controller
 {
@@ -25,7 +28,12 @@ class PostsController extends Controller
             return view('post.index')->with(compact('title','posts','categories'));
             }
             else{
-                return redirect()->back()->with('flash_message_error', 'Access denied!');
+                $title = "CEC | News";
+                $ministries = Ministry::get();
+      $branches = Branch::get();
+            $posts = Post::get();
+            $categories = Category::get();
+            return view('post.visitor')->with(compact('title','posts','categories','branches','ministries'));
             }
     }
 
@@ -101,7 +109,7 @@ class PostsController extends Controller
      */
     public function show($id)
     {
-        //
+        
     }
 
     /**

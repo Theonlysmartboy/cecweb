@@ -44,3 +44,6 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('/staffs/destroy/{id}', 'StaffsController@destroy');
     Route::get('/posts/destroy/{id}', 'PostsController@destroy');
 });
+Route::group(['prefix' => 'education'], function () {
+    Route::get('/', 'EducationController@bibleSchool')->name('bibleschool');
+});
